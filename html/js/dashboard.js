@@ -13,7 +13,11 @@ $(function(){
             $(".nav-bar").addClass("transparent-nav");
         }
     });*/
-	$('.carousel.carousel-slider').carousel({fullWidth: true});
+	$('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true,
+        duration: 100
+    });
     $('.parallax').parallax();
     $(".button-collapse").sideNav();
 });

@@ -14,12 +14,12 @@
     margin-top: 5px;
 }
 .side-nav{
-	width: 70% !important;
+    width: 70% !important;
 }
 .nav-top{margin-top: 100px;}
 
 nav .nav-wrapper{
-	
+    
 }
 nav {
     position: fixed;
@@ -35,25 +35,23 @@ nav {
     
 }
 .transparent-nav{
-	background: transparent !important;
-	box-shadow: none;
-	-webkit-transition: all 0.3s ease-in-out;
+    background: transparent !important;
+    box-shadow: none;
+    -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 nav.nav-bar ul a{
-	color: #22A54F;
-    text-shadow: 0px 0px 0px #aaa;
+    color: #2f3293;
 }
 nav.transparent-nav ul a{
-	color: #00a650;
-    text-shadow: 0px 0px 0px #aaa;
+    color: #393cad;
     line-height: 8rem;
 }
 nav.transparent-nav ul a:hover{
-	color:#fff;
-	background: transparent !important;
+    color:#fff;
+    background: transparent !important;
 }
 nav.nav-bar {
     background: #fff;
@@ -64,44 +62,44 @@ nav.nav-bar {
 }
 nav.nav-bar ul a:hover {
     color: #fff;
-    background: #22A54F;
+    background: #2f3293;
 }
 
 nav .button-collapse{
-	color: #22A54F;
+    color: #2f3293;
 }
 
 .card-panel{
-	min-height: 450px;
+   /* min-height: 450px;*/
 }
 .btn:hover{
-	opacity: 0.7 !important;
+    opacity: 0.7 !important;
 }
 .map{
-	 border:0;width: 100%;height: 100%;min-height: 500px;
+     border:0;width: 100%;height: 100%;min-height: 500px;
 }
 @media(max-width: 768px){
-	.map{
-		min-height: 300px !important;
-	}
-	.card-panel{
-		min-height: 300px;
-	}	
+    .map{
+        min-height: 300px !important;
+    }
+    .card-panel{
+        min-height: 300px;
+    }   
 }
 
 /********************************
-		Form Validation
+        Form Validation
 *********************************/
 input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly])
 {
 
-    border-bottom: 1px solid #00a54f;
-    -webkit-box-shadow: 0 1px 0 0 #00a54f;
-    box-shadow: 0 1px 0 0 #00a54f;
+    border-bottom: 1px solid #2f3293;
+    -webkit-box-shadow: 0 1px 0 0 #2f3293;
+    box-shadow: 0 1px 0 0 #2f3293;
 }
 input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label
 {
-	color: #00a54f;
+    color: #2f3293;
 }
 /**========================
     Content Title
@@ -196,25 +194,26 @@ transition: all 0.3s ease-in-out;
 ===============================*/
 
 footer.page-footer {
-    background: #00A650;
+    background: #393cad;
+    position: relative;
 }
 .footer-text{
-	color: #000;
+    color: #000;
 }
 .footer-link a{
-	color: rgba(255,255,255,0.9);
-	-webkit-transition:all 0.3s;
-	-moz-transition:all 0.3s;
-	-o-transition:all 0.3s;
-	transition:all 0.3s;
+    color: rgba(255,255,255,0.9);
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    transition:all 0.3s;
 }
 .footer-link a:hover{
-	color: #ddd;
-	-webkit-transition:all 0.3s;
-	-moz-transition:all 0.3s;
-	-o-transition:all 0.3s;
-	transition:all 0.3s;
-	margin-left: 5px;
+    color: #ddd;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    transition:all 0.3s;
+    margin-left: 5px;
 }
 a.footer-link-right.right {
     font-size: 13px;
@@ -267,14 +266,14 @@ i.social-connect.connect-linkedin:hover {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    color: #01a551 !important;
+    color: #2f3293 !important;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 25px;
 }
 
 .section-title.grey-text.text-darken-4.flow-text{
-	color: #01a551 !important;
+    color: #2f3293 !important;
 }
 .parallax-container{
     height: auto;
@@ -368,7 +367,7 @@ ul#nav-mobile {
 }
 
 ul#nav-mobile li a {
-    color: #00a54f;
+    color: #2f3293;
     border-bottom: 1px solid #dcdcdc;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -395,23 +394,23 @@ nav.transparent-nav ul a:hover {
 
 
 /**==================================
-		About Page
+        About Page
 ===================================**/
 .about-section p{
     font-size: 16px;
     text-align: justify;
 }
 .h5{
-	font-size: 1rem;
-	font-weight: 500;
-	color: #00a54f;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2f3293;
 }
 
 /**==================================
-		The Begining Page
+        The Begining Page
 ===================================**/
 p.b-title{
-	text-align: center;
+    text-align: center;
     margin: 20px 0px;
     color: #000;
     text-transform: uppercase;
@@ -420,56 +419,124 @@ p.b-title{
 }
 
 /**==================================
-		The Begining Page
+        The Begining Page
 ===================================**/
 .li li{
-	color: #01A551;
+    color: #2f3293;
 }
 
 /**==================================
-		Footer Site Map
+        Footer Site Map
 ===================================**/
 marquee{
-	max-height: 150px;
-	margin-top: 15px;
+    max-height: 150px;
+    margin-top: 15px;
 }
 @media(max-width: 768px){
-	marquee{
-	max-height: 250px !important;
-	}
+    marquee{
+    max-height: 250px !important;
+    }
 }
 marquee p{
-	color: rgba(255,255,255,0.9);
+    color: rgba(255,255,255,0.9);
 }
 
 
 .ftr-sitemap{
-	line-height: 5rem;
-	background: #038a44;
+    line-height: 5rem;
+    background: #2f3194;
 }
 .ftr-sitemap a{
-	color: #ddd !important;
-	-webkit-transition:all 0.3s;
-	-moz-transition:all 0.3s;
-	-o-transition:all 0.3s;
-	transition:all 0.3s;
+    color: #ddd !important;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    transition:all 0.3s;
 }
 .ftr-sitemap a:hover{
-	color: #fff !important;
-	-webkit-transition:all 0.3s;
-	-moz-transition:all 0.3s;
-	-o-transition:all 0.3s;
-	transition:all 0.3s;
+    color: #fff !important;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    transition:all 0.3s;
 }
 
 /**================================================================================================
-			 Mobile Responsive Media queries
+             Mobile Responsive Media queries
 ===================================================================================================*/
 @media only screen and (max-width: 992px){
-	.nav .brand-logo {
-		left: 50%;
-		-webkit-transform: translateX(-50%);
-		transform: translateX(-50%);
-		text-align: center !important;
-	}
+    .nav .brand-logo {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        text-align: center !important;
+    }
 } 
+
+
+
+/* home page */
+.section-content p {
+    color: #5a5a5a;
+    font-size: 16px;
+}
+
+.home-cards .card-panel .section-content {
+    display: none;
+}
+
+.home-cards .card-panel {
+    min-height: 135px;
+    position: relative;
+}
+
+.home-cards .card-panel .section-title {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.card-panel:hover .section-content {
+    display: block;
+}
+
+.home-cards .card-panel:hover .section-content {
+    display: block;
+}
+.home-cards .card-panel:hover{
+    background: #2f3293;
+}
+
+.home-cards .card-panel:hover .section-content p{
+    color:#fff;
+}
+.home-cards .card-panel:hover .section-title{
+    display: none;
+}
+.section-container.home-cards {
+    min-height: 200px;
+}
+.full-width-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+.footer-background-image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+footer.page-footer{
+    background: rgba(0,0,0,0.9);
+    position: relative;
+    overflow: hidden;
+}
+
+.ftr-sitemap.row {
+    background: rgba(0,0,0,0.5);
+}

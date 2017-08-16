@@ -1,0 +1,306 @@
+
+.grey-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.65);
+}
+
+nav.nav-bar {
+    background: transparent;
+    box-shadow: none;
+}
+
+nav.nav-bar ul a{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+    font-size: 11px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+nav.opaque-grey ul a{
+    line-height: 8rem;
+
+}
+nav.opaque-grey{
+	background: rgba(0,0,0,0.7);
+}
+nav{
+	height: auto !important;
+}
+nav.opaque-grey ul a{
+	line-height: 6rem !important;
+}
+nav.opaque-grey .brand-logo img{
+	width: 6rem;
+}
+nav .brand-logo img{
+	width: 8rem;
+	margin-top: 0px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+nav ul a:hover{
+	background: transparent !important;
+	color:#ec696b !important;
+}
+nav.transparent-nav ul a:hover{
+	background: transparent !important;
+	color:#ec696b !important;
+}
+
+.slider-content {
+        position: absolute;
+    background: transparent;
+    z-index: 100;
+    bottom: 300px;
+    width: 100%;
+}
+
+.slider-title {
+  color: #ec696b;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 35px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.slider-description {
+        color: #fff;
+    font-weight: 100;
+    word-spacing: 3px;
+    font-size: 17px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.about-school-section {
+    padding: 80px !important;
+    padding-right: 10px !important;
+    padding-top: 50px !important;
+}
+
+.about-school-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#4c4c4c;
+}
+.about-school-title span{
+	color:#ec696b;
+}
+
+.about-school-content p {
+    color: #4c4c4c;
+    text-align: justify;
+}
+.about-school-section {
+    padding-bottom: 0px !important;
+}
+.about-school-container {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.full-width-container.event-container {
+    background: #333333;
+}
+
+.event-title {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.event-container .card-panel {
+    padding: 0px;
+    overflow: hidden;
+    min-height: 250px;
+}
+
+.event-image {
+    width: 50%;
+    overflow: hidden;
+    height: 250px;
+}
+
+.event-image img {
+    height: 250px;
+}
+
+
+.event-date {
+    position: absolute;
+    background: #ec696b;
+    width: 50px;
+}
+
+.event-day {
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    line-height: 24px;
+    margin-top: 5px;
+    /* font-weight: 500; */
+}
+
+.event-month {
+    text-align: center;
+    color: #e6e6e6;
+    font-size: 12px;
+}
+.event-image {
+    float: left;
+}
+
+.event-description {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.event-title-text {
+       text-align: left;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.event-location {
+    font-size: 16px;
+}
+
+.event-location i {
+    font-size: 13px;
+}
+
+.event-time {
+    font-size: 16px;
+}
+
+.event-time i {
+    font-size: 13px;
+}
+.event-content {
+    margin-top: 20px;
+    color: #696969;
+    font-size: 13px;
+}
+
+
+.full-width-container.service-container {
+    background: #ec696b;
+}
+
+
+.service-title {
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.service-title span{
+
+}
+
+.service-icon-container {
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+}
+
+.service-title-text {
+    text-align: center;
+    color: #fff;
+}
+
+.service-container .card-panel {
+    background: transparent;
+    box-shadow: none;
+}
+.service-container .card-panel:hover {
+    background: #fff;
+    box-shadow: initial;
+    cursor: pointer;
+}
+
+.service-container .card-panel:hover .service-icon-container{
+	color:#ec696b;
+}
+
+.service-container .card-panel:hover .service-title-text{
+	color:#ec696b;
+}
+/*
+.service-container {
+    margin-bottom: 0px;
+}
+.event-container{
+	margin-top: 0px;
+}
+*/
+
+.testimonial-title {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.testimonial-title span {
+    color: #ec696b;
+    font-weight: bold;
+}
+
+.testimonial-container .card-panel {
+    background: transparent;
+    box-shadow: none;
+}
+
+.testimonial-text {
+    text-align: center;
+}
+
+.testimonial-name {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.testimonial-name {
+    color: #000;
+    text-transform: uppercase;
+}
+
+.testimonial-name span {
+    color: #ec696b;
+    font-weight: bold;
+}
+
+.testimonial-container {
+    padding-bottom: 0px;
+}
+
+.event-container {
+    margin-bottom: 0px;
+}
+
+.about-image {
+    margin-top: 110px;
+}
+
+.about-image img {
+    width: 100%;
+}

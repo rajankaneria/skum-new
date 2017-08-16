@@ -1,4 +1,5 @@
-	 	<footer class="page-footer">
+	 	<footer class="page-footer  z-depth-1">
+        <img class="footer-background-image" src="<?php echo base_url(); ?>html/images/footer-bg.jpg" />
           <div class="container">
             <div class="row">
               <div class="col m4">
@@ -46,13 +47,8 @@
               <div class="col m4 footer-address">
                 <h5 class="footer-title">Latest News</h5>
                 <marquee direction = "up" scrollamount="2">
-                	<p>This is a Test News.</p>
-                	<p>This is a Test News.</p>
-                	<p>This is a Test News.</p>
-                	<p>This is a Test News.</p>
-                	<p>This is a Test News.</p>
-                	<p>This is a Test News.</p>
-                	<p>This is a Test News.</p>
+                	<p>SKUM school to organise Clean Ahmedabad campaign from 71st Independence Day.</p>
+                	<p>SKUM to provide digital education to all the students from new academic year.</p>
                 </marquee>
               </div>
 
@@ -62,7 +58,6 @@
 
           <div class="ftr-sitemap row" style="margin-bottom: 0px !important;">
             <div class="container"><center>
-              <a class="" href="#!">Wonderfull World</a> &nbsp;|&nbsp;
               <a class="" href="#!">Achievements</a> &nbsp;|&nbsp;
               <a class="" href="#!">Feed Back</a> &nbsp;|&nbsp;
               <a class="" href="#!">Site Map</a> &nbsp;|&nbsp;

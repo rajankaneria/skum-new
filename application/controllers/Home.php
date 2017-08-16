@@ -8,10 +8,10 @@ class Home extends CI_Controller {
 	{		
 		$headerData = array(
 			"pageTitle" => "Home",
-			"stylesheet" => array("dashboard.css")
+			"stylesheet" => array("dashboard.css","home.css")
 		);
 		$footerData = array(
-			"jsFiles" => array("dashboard.js")
+			"jsFiles" => array("dashboard.js","home.js")
 		);
 		$viewData = array(
 			"viewName" => "home",
