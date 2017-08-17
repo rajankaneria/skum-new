@@ -8,6 +8,12 @@ $(function(){
         indicators: true,
         duration: 200
     });
+    $('#testimonialSlider').carousel({
+        fullWidth: true,
+        indicators: true,
+        duration: 200
+    });
+
 
     $("#facilitySliderLeft").on("click",function(){
         $('#facilitySlider').carousel('prev');
@@ -20,6 +26,8 @@ $(function(){
     setInterval(function(){
         $('.carousel.carousel-slider').carousel('next');
     }, 5000);
+
+
 
     setInterval(function(){ 
         $('#facilitySlider').carousel('next');

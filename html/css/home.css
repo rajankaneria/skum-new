@@ -254,7 +254,9 @@
 .about-image img {
     width: 100%;
 }
-
+.carousel-item{
+    width:100% !important;
+}
 #facilitySlider .carousel-item{
     width:100%;
 }
