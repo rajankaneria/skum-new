@@ -15,6 +15,7 @@
 					Participative attitude round the clock makes the
 					learning in all walks of life applicable. Great end of
 					life is not knowledge but actions.</p>
+
 			</div>
 	</div>
 
