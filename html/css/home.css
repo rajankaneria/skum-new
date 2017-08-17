@@ -127,7 +127,7 @@ nav.transparent-nav ul a:hover{
 .event-container .card-panel {
     padding: 0px;
     overflow: hidden;
-    min-height: 250px;
+    min-height: 170px;
 }
 
 .event-image {
@@ -303,4 +303,16 @@ nav.transparent-nav ul a:hover{
 
 .about-image img {
     width: 100%;
+}
+
+.fa-arrow-circle-o-left{color: #fff !important;
+    font-size: 43px !important;
+    position: relative;    
+    top: 100px;
+    right: 478px;}
+.fa-arrow-circle-o-right{color: #fff !important;
+    font-size: 43px !important;
+    position: relative;
+    top: 100px;
+    left: 478px
 }
