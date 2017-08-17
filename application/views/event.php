@@ -1,11 +1,11 @@
 <div class="nav-top"></div>
 <div class="container">
-  <div class="section-title grey-text text-darken-4 section-sub-title"><p><span>Mission Eklavya</span></p></div> 
+  <div class="section-title grey-text text-darken-4 section-sub-title"><p><span>Events</span></p></div> 
 </div>
 
 <div class="event-container" id="houseContainer">
 <div class="section-container">
-	<table width="100%" border="1" cellpadding="0" cellspacing="0" bgcolor="#f4e5e5">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#f4e5e5">
         <tbody><tr>
         <td width="5" align="left" valign="top"></td>
           <td width="200" align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="left-boarder">
@@ -66,7 +66,7 @@
 </tbody></table></td>
           
           <td align="center" valign="top"><!-- InstanceBeginEditable name="EditRegion3" -->
-            <table width="97%" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC" border="1">
+            <table width="97%" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC">
               <tbody><tr>
                 <td height="24" colspan="7" bgcolor="#66CCFF"><div align="center"><span class="subtitle">First Term Exams</span></div></td>
               </tr>
@@ -171,7 +171,7 @@
               </tr>
             </tbody></table>
             <br>
-<table width="97%" border="1" align="center" cellpadding="0" cellspacing="0">  
+<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">  
     <tbody><tr><td width="100%" height="36"><table width="30%" border="0" align="center" cellpadding="0" cellspacing="0">  
   <tbody>
 </tbody></table>
