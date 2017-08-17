@@ -283,6 +283,10 @@ i#facilitySliderLeft {
 #facilitySlider ul.indicators {
     bottom: -20px;
 }
+
+#testimonialSlider{
+    height: 270px !important;
+}
 /*
 .fa-arrow-circle-o-left{color: #fff !important;
     font-size: 43px !important;
