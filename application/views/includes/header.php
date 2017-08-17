@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
 
     <link href="<?php echo base_url(); ?>html/css/style.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>html/css/mobile-fix.css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Inconsolata|Raleway" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -41,17 +40,17 @@
 <style type="text/css">
     .me{background: red;}
 </style>
-<nav class="nav-bar" role="navigation">
+<nav class="nav-bar opaque-grey" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="home" class="brand-logo main-logo"><img src="<?php echo base_url(); ?>html/images/logo.png" alt="SKUM"/></a>
       <ul class="desktop-nav-link right hide-on-med-and-down">
         <li><a href="home">Home</a></li>
         <li><a href="about">About</a></li>
-        <li><a href="#">Institute</a></li>
-        <li><a href="admission" >Admission</a></li>
-        <li><a href="curriculum">Curriculum</a></li>
-        <li><a href="#">Affiliation</a></li>
-        <li><a href="#">vacancies</a></li>
+        <li><a href="#">Pillars</a></li>
+        <li><a href="Institute" >Institute</a></li>
+        <li><a href="curriculum">Activity</a></li>
+        <li><a href="#">Event</a></li>
+        <li><a href="#">Mission Eklavya</a></li>
         <li><a href="contact">Contact us</a></li>
       </ul>
         

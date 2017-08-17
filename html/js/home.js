@@ -7,13 +7,9 @@ $(function(){
         duration: 100
     });
 
-
     $("#facilitySliderLeft").on("click",function(){
         $('#facilitySlider').carousel('prev');
     });
- 
-
-
 
 })
 $(window).scroll(function (event) {

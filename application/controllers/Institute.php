@@ -1,20 +1,20 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Curriculum extends CI_Controller {
+class Institute  extends CI_Controller {
 
 	
 	public function index()
 	{		
 		$headerData = array(
-			"pageTitle" => "Curriculum",
+			"pageTitle" => "Institute",
 			"stylesheet" => array("dashboard.css")
 		);
 		$footerData = array(
 			"jsFiles" => array("dashboard.js")
 		);
 		$viewData = array(
-			"viewName" => "curriculum",
+			"viewName" => "institute",
             "viewData" => array(),
 			"headerData" => $headerData,
 			"footerData" => $footerData	

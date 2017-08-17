@@ -43,9 +43,41 @@
   </div>
 </div>
 <div class="full-width-container z-depth-1 service-container ">
-  <div class="service-title">School <span>Facilities</span></div>
+<div class="service-title">School <span>Facilities</span></div>
   <div id="facilitySlider" class="center z-depth-1" data-indicators="true">  
     <div class="carousel-item" href="#one!">             
+    <div class="row container">
+    <div><i id="facilitySliderLeft" class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+    <i id="facilitySliderRight" class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></div>
+
+    <div class=" col s6 m3">
+        <div class="card-panel">
+          <div class="service-icon-container"><i class="fa fa-users" aria-hidden="true"></i></div>
+          <div class="service-title-text">Trained Faculties</div>
+        </div>
+    </div>
+    <div class="col s6 m3">
+      <div class="card-panel">
+        <div class="service-icon-container"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+        <div class="service-title-text">Smart Classrooms</div>
+        </div>
+    </div>
+    <div class="col s6 m3">
+      <div class="card-panel">
+        <div class="service-icon-container"><i class="fa fa-book" aria-hidden="true"></i></div>
+        <div class="service-title-text">Well-stocked Library</div>
+        </div>
+    </div>
+    <div class=" col s6 m3">
+      <div class="card-panel">
+        <div class="service-icon-container"><i class="fa fa-futbol-o" aria-hidden="true"></i></div>
+        <div class="service-title-text">Sports Activity</div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="carousel-item" href="#two!">             
     <div class="row container">
     <div><i id="facilitySliderLeft" class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
     <i id="facilitySliderRight" class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></div>
