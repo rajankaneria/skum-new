@@ -38,15 +38,18 @@
         <div class="col s12 m6 about-image">
           <img class="responsive-img" src="<?php echo base_url(); ?>html/images/Magazine.jpg">
         </div>
-
-
       </div>
       
   </div>
 </div>
 <div class="full-width-container z-depth-1 service-container ">
   <div class="service-title">School <span>Facilities</span></div>
-  <div class="row container">
+  <div class="carousel carousel-slider center z-depth-1" data-indicators="true">  
+    <div class="carousel-item" href="#one!">             
+    <div class="row container">
+    <div><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+    <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></div>
+
     <div class=" col s6 m3">
         <div class="card-panel">
           <div class="service-icon-container"><i class="fa fa-users" aria-hidden="true"></i></div>
@@ -73,43 +76,44 @@
     </div>
   </div>
 </div>
-
-
-
+</div> 
+</div>
 <div class="full-width-container testimonial-container ">
   <div class="testimonial-title">Parents <span>Testimonials</span></div>
-  <div class="row container">
+    <!----Slider------------------>
+<div class="carousel carousel-slider center z-depth-1" data-indicators="true">  
+    <div class="carousel-item" href="#one!">             
+           <div class="row container">
+              <div class=" col s12 m4">
+                <div class="card-panel">
+                <div class="testimonial-text">"Grauer is so much more than just a good college prep school - there are plenty of those. What distinguishes Grauer is the nourishing of the whole person and providing the environment for each child to find their gifts and a sense of place in the world."</div>
+                <div class="testimonial-name">Arvind <span>Patel</span></div>
+              </div>
+            </div>
 
+            <div class="col s12 m4">
+              <div class="card-panel">
+                <div class="testimonial-text">"For the first time in his life my son jumps out of bed first thing in the morning without being told to get up, does his homework without being told, has completely eliminated video games from his life, and spends all his free time on creative projects. This school has transformed our lives."</div>
+               <div class="testimonial-name">Jignesh <span>Thakkar</span></div>
+              </div>
+            </div>
 
-    <div class=" col s12 m4">
-        <div class="card-panel">
-          <div class="testimonial-text">"Grauer is so much more than just a good college prep school - there are plenty of those. What distinguishes Grauer is the nourishing of the whole person and providing the environment for each child to find their gifts and a sense of place in the world."</div>
-          <div class="testimonial-name">Arvind <span>Patel</span></div>
-        </div>
-    </div>
-
-    <div class="col s12 m4">
-      <div class="card-panel">
-        <div class="testimonial-text">"For the first time in his life my son jumps out of bed first thing in the morning without being told to get up, does his homework without being told, has completely eliminated video games from his life, and spends all his free time on creative projects. This school has transformed our lives."</div>
-        <div class="testimonial-name">Jignesh <span>Thakkar</span></div>
-        </div>
-    </div>
-
-    <div class="col s12 m4">
-      <div class="card-panel">
-        <div class="testimonial-text">"One thing I realized during my son’s senior year there, was how kind and responsible he had become ...not only for himself, but for friends and family. The school works as a community to really develop responsibility, sensitivity, and resourcefulness in the students."</div>
-        <div class="testimonial-name">Mittal <span>Jain</span></div>
-        </div>
-    </div>
-
-
-  </div>
+            <div class=" col s12 m4">
+                <div class="card-panel">
+                  <div class="testimonial-text">"Grauer is so much more than just a good college prep school - there are plenty of those. What distinguishes Grauer is the nourishing of the whole person and providing the environment for each child to find their gifts and a sense of place in the world."</div>
+                  <div class="testimonial-name">Arvind <span>Patel</span></div>
+                </div>
+            </div>
+            
+          </div>
+      </div>    
 </div>
 
+    <!---------------------------->
 
+</div>
 
-
-<div class="full-width-container event-container ">
+<div class="full-width-container event-container">
   <div class="event-title">Upcoming Events</div>
   <div class="row container">
 
@@ -137,6 +141,18 @@
           </div>
       </div>
     </div>
+
+    <div class="col s12 m12">
+    <div class="event-title">Latest News</div>
+    <div class="card-panel white">
+      
+                <marquee direction = "up" scrollamount="2">
+                  <p>SKUM school to organise Clean Ahmedabad campaign from 71st Independence Day.</p>
+                  <p>SKUM to provide digital education to all the students from new academic year.</p>
+                </marquee>
+    </div>                
+  </div>
+</div>
 
   </div>
 </div>

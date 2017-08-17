@@ -1,6 +1,6 @@
 	 	<footer class="page-footer  z-depth-1">
-        <img class="footer-background-image" src="<?php echo base_url(); ?>html/images/footer-bg.jpg" />
-          <div class="container">
+       <!-- <img class="footer-background-image" src="<?php echo base_url(); ?>html/images/footer-bg.jpg" />-->
+         <!-- <div class="container">
             <div class="row">
               <div class="col m4">
                   <h5 class="footer-title">Main Links</h5>
@@ -26,7 +26,7 @@
                   	<li><a href="#">&raquo; SCN</a></li>
                   	<li><a href="#">&raquo; IBH Hostel</a></li>
                   </ul>
-              </div>
+              </div>-->
 
 <!--
 
@@ -42,19 +42,7 @@
                 <div class="footer-text">B/h T . V. Tower Drive-In Road,</div>
                 <div class="footer-text">Ahmedabad - 380 054,</div>
                 <div class="footer-text">Gujarat, INDIA.</div>
-              </div>
--->
-              <div class="col m4 footer-address">
-                <h5 class="footer-title">Latest News</h5>
-                <marquee direction = "up" scrollamount="2">
-                	<p>SKUM school to organise Clean Ahmedabad campaign from 71st Independence Day.</p>
-                	<p>SKUM to provide digital education to all the students from new academic year.</p>
-                </marquee>
-              </div>
-
-
-            </div>
-          </div>
+              </div>-->          
 
           <div class="ftr-sitemap row" style="margin-bottom: 0px !important;">
             <div class="container"><center>
