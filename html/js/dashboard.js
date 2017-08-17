@@ -16,7 +16,7 @@ $(function(){
 	$('.carousel.carousel-slider').carousel({
         fullWidth: true,
         indicators: true,
-        duration: 100
+        duration: 200
     });
     $('.parallax').parallax();
     $(".button-collapse").sideNav();

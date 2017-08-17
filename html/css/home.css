@@ -305,6 +305,33 @@ nav.transparent-nav ul a:hover{
     width: 100%;
 }
 
+#facilitySlider .carousel-item{
+    width:100%;
+}
+i#facilitySliderRight {
+    position: absolute;
+    right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    top: 30%;
+    z-index: 100;
+}
+
+i#facilitySliderLeft {
+    position: absolute;
+    left: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    top: 30%;
+    z-index: 100;
+}
+
+#facilitySlider ul.indicators {
+    bottom: -20px;
+}
+/*
 .fa-arrow-circle-o-left{color: #fff !important;
     font-size: 43px !important;
     position: relative;    
@@ -316,3 +343,4 @@ nav.transparent-nav ul a:hover{
     top: 100px;
     left: 478px
 }
+*/
