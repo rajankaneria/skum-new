@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="col s12 m6 about-image">
-          <img class="responsive-img" src="<?php echo base_url(); ?>html/images/Magazine.jpg">
+          <img class="responsive-img" src="<?php echo base_url(); ?>html/images/skum.jpg">
         </div>
       </div>
       

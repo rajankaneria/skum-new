@@ -50,7 +50,7 @@
         <li><a href="Institute" >Institute</a></li>
         <li><a href="curriculum">Activity</a></li>
         <li><a href="#">Event</a></li>
-        <li><a href="#">Mission Eklavya</a></li>
+        <li><a href="Mission_Eklavya">Mission Eklavya</a></li>
         <li><a href="contact">Contact us</a></li>
       </ul>
         
