@@ -16,4 +16,4 @@ function scrollCheck(){
         $(".nav-bar").removeClass("opaque-grey");
         $(".nav-bar").addClass("transparent-nav");
     }
-}
+} 
