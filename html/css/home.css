@@ -305,12 +305,14 @@ nav.transparent-nav ul a:hover{
     width: 100%;
 }
 
-.fa-arrow-circle-o-left{color: #fff !important;font-size: 42px !important
-    position: relative;
+.fa-arrow-circle-o-left{color: #fff !important;
+    font-size: 43px !important;
+    position: relative;    
     top: 100px;
     right: 478px;}
-.fa-arrow-circle-o-right{color: #fff !important;font-size: 42px !important
-position: relative;
+.fa-arrow-circle-o-right{color: #fff !important;
+    font-size: 43px !important;
+    position: relative;
     top: 100px;
     left: 478px
 }
