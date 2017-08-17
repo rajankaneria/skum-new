@@ -36,4 +36,3 @@ function scrollCheck(){
         $(".nav-bar").addClass("transparent-nav");
     }
 }
-
