@@ -4,11 +4,10 @@
 </div>
 <div class="card-panel row">
 	<div class="container about-section">
-		<center><h5 class="flow-text h5">A STRONG FOUNDATION:</h5></center>
-		<h5 class="h5 flow-text"><strong>CAMPUS DIRECTOR</strong></h5>
+		<center><h5 class="flow-text h5">Philosophy</h5></center>
+
 			<div class="">
-				<h5 class="h5 flow-text"><strong>PRINCIPAL: MRS. Neeta Sharma (ENGLISH MEDIUM).</strong></h5>
-				<p class="flow-text">Mrs. Sunita Dimri did her schooling from CJM, Dehradun (ICSE, ISC). After completing her graduation with English Language in Literature and Psychology, she did her post graduation in Economics and her B. Ed in English and Geography. She has had the honour of working in Sir Padampat Singhania Education Center, Kanpur; Army School, Meerut Cantt.; Fr. Agnel Multipurpose School, Mumbai; thus making an impressive total of 16 years of successful experience.</p>
+				<p class="flow-text">When learning stops dying starts. Educators, parents & learners are learning silently in the thorough various activities, experiences, observations and knowledge. Learning in only possible in 4 walls is an illusion. Participative attitude round the clock makes the learning in all walks of life applicable. Great end of life is not knowledge but actions.</p>
 			</div>
 
 
