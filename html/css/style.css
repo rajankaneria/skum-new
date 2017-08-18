@@ -609,6 +609,7 @@ nav.transparent-nav ul a:hover{
     display: block;
     margin: 0 auto;
 }
-table,td {
+table,td,th{
     border: 1px !important;
+    vertical-align:top;
 }
