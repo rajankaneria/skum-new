@@ -115,39 +115,85 @@
 
 
 <div class="full-width-container testimonial-container ">
-  <div class="testimonial-title">Parents <span>Testimonials</span></div>
+<div class="testimonial-title">Parents <span>Testimonials</span></div>
     <!----Slider------------------>
-<div id="testimonialSlider" class="carousel center" data-indicators="true">  
-    <div class="carousel-item" href="#one!">             
+    <div id="testimonialSlider" class="carousel center" data-indicators="true">  
+       <div class="carousel-item" href="#one!">             
            <div class="row container">
-              <div class=" col s12 m4">
+              <div class=" col s12 m12">
                 <div class="card-panel">
-                <div class="testimonial-text">"Grauer is so much more than just a good college prep school - there are plenty of those. What distinguishes Grauer is the nourishing of the whole person and providing the environment for each child to find their gifts and a sense of place in the world."</div>
-                <div class="testimonial-name">Arvind <span>Patel</span></div>
+                <div class="testimonial-text">"I am happy my daughter is continuing nursery standard to 4th standard to attend the class. She is very active and any activities provided by school, any functions organized or any creativities given are joyfully completed by her. School provides good teaching and all teachers are very kind and supportive in all manners."</div>
+                <div class="testimonial-name">Bharat <span> Sadhavani</span></div>
               </div>
-            </div>
-
-            <div class="col s12 m4">
+          
+        </div>
+      </div>
+    </div>    
+      <div class="carousel-item" href="#two!">             
+           <div class="row container">
+            <div class="col s12 m12">
               <div class="card-panel">
-                <div class="testimonial-text">"For the first time in his life my son jumps out of bed first thing in the morning without being told to get up, does his homework without being told, has completely eliminated video games from his life, and spends all his free time on creative projects. This school has transformed our lives."</div>
-               <div class="testimonial-name">Jignesh <span>Thakkar</span></div>
+                <div class="testimonial-text">"Education is very essential in life and the place where one gets educated is equally important. SKUM is one such institution located in the heart of city, its full name is Stree Kelavani Uttejak Mandal. The vision of the school is to create institution of education, where Indian culture is included within enhance their capacity to understand various aspects of the whole universe. It also focuses on nurturing the feelings of respect of Indian culture among the students. It encourages the progressive thinking among the students. To fulfill its objective SKUM all state of art facilities to students. Starting from best teachers, it provides library, computers, lab, smart class, science laboratories for education. It also provides best sporting facilities to students. It has very big campus which is green and clean. Thus it provides all facilities for the all –round development of student. I am proud of my school. "</div>
+               <div class="testimonial-name">Tushar   <span>Sutaria</span></div>
               </div>
             </div>
-
-            <div class=" col s12 m4">
+            </div>
+      </div>
+        
+          
+        <div class="carousel-item" href="#three!">             
+           <div class="row container">
+            <div class=" col s12 m12">
                 <div class="card-panel">
-                  <div class="testimonial-text">"Grauer is so much more than just a good college prep school - there are plenty of those. What distinguishes Grauer is the nourishing of the whole person and providing the environment for each child to find their gifts and a sense of place in the world."</div>
-                  <div class="testimonial-name">Arvind <span>Patel</span></div>
+                  <div class="testimonial-text">"We are thankful to give us opportunity for writing opinion about your school. In 2007 when we admitted VRAJ in SKUM School, we were little bit confused because we didn’t know much about this trust ‘SKUM’. But now a day we are very happy with SKUM trust. At that time admission process was very simple and there was no extra donation given for admission and still a date there is an affordable fees structure.
+                  From Nursery to std.-8 all teachers’ behavior is good and teaching method is also good. Teachers try different method and use smart class for easy study. There are many other extra activities like cultural program and sports activity arrange regularly. School also arrange picnic for fun and visit different places for knowledge. We also glad to say “SKUM” school isreally SARASWATI VIDHYAMANDIR."</div>
+                  <div class="testimonial-name">Pankaj <span>Patel</span></div>
                 </div>
             </div>
-            
+          </div>
+        </div>      
+        
+        <div class="carousel-item" href="#four!">             
+           <div class="row container">
+             <div class=" col s12 m12">
+                <div class="card-panel" style="padding: 0 !important">
+                  <div class="testimonial-text">"Greetings to SKUM School….!!! I Nikunj Patel, Father of Misri Patel writing as I just feel the need to acknowledge the support from the SKUM school. My child Misri Patel continues to be very smart recently. At home, I can even hear her singing alphabet song and reciting a nice short-poem. Thank you so much teachers for all your efforts and dedication in teaching your preprimary pupils including mu daughter.
+                  Misri is stdying in SKUM since nursery. To all the teachers in nursery level; this message is to simply thank you for all the kindness and support for my daughter Misri Patel during her three years of stay in your school. I have been seeing so much improvement on my child’s knowledge and personality. Misri has built up more confidence due to extracurricular activities done by school. I have witnessed your dedication and love in teaching your preprimary students and I am so blessed that my child is in your school. It feels so good to know that my daughter is studying in SKUM. 
+                  Many thanks to SKUM School, Principal Sir( Shri Antony Sir) and all preprimary teachers.
+                  Yours Sincerely
+                  "</div>
+                  <div class="testimonial-name">Nirav <span>Patel</span></div>
+                </div>
+              </div>
+            </div>          
+        </div>
+        <div class="carousel-item" href="#one!">             
+           <div class="row container">
+             <div class=" col s12 m12">
+                <div class="card-panel">
+                  <div class="testimonial-text">"It’s nice school. What I am thinking it is the same. I always in mind that school must outcome the inner qualities of students and that are proven by you and your staff also. I am so much lucky and my child too for having admission in this school. Truly you have proved better that you can make the future of our child. I hope that this institute will always care a lot of these blossoming flowers. Have a bright future ahead."</div>
+                  <div class="testimonial-name"> Mayank <span>Brahmbhatt</span></div>
+                </div>
+            </div>
+          </div>
+         </div>         
+        <div class="carousel-item" href="#one!">             
+           <div class="row container">
+              <div class=" col s12 m12">
+                <div class="card-panel">
+                  <div class="testimonial-text">"My daughter Tejashree is studying in Std.- 4 A. She is in the SKUM school since nursery. Though my child was not accepting the school in nursery, all staff, teachers and principal helped her and me to solve the problem. Teachers and principal of the school have helped us at various stages and I am thankful to them. Earlier food was also supplied to the children which was very good. I appreciate the activities undertaken by the school. School Management’s interest in school is also good – no wastage of leaves or hours of studies. If teachers communicate in English with students and also among themselves then aroma would be added to gold. Thank You. "</div>
+                  <div class="testimonial-name"> Dhananjay  <span>Patel</span></div>
+                </div>
+            </div>            
           </div>
       </div>    
+    
+</div>
 </div>
 
     <!---------------------------->
 
-</div>
+
 
 <div class="full-width-container event-container">
   <div class="event-title">Upcoming Events</div>
@@ -180,8 +226,8 @@
 </div>
 </div>
 
-<div class="col s12 m12 full-width-container z-depth-1 news-container">
-  <div class="event-title"><font style="color: #fff;">Latest</font> <strong>News</strong></div>
+<div class="col s12 m12 full-width-container z-depth-1 news-container" style="padding-bottom: 0px !important">
+  <div class="event-title news_title"><font style="color: #fff;">Latest</font> <strong>News</strong></div>
   <div class="container">
     <div class="news">
       <marquee direction = "up" scrollamount="2">

@@ -6,10 +6,10 @@
 <div class="card-panel row row_bottom">
 
 	<div class="container about-section">
-	<div class="card-panel row">
+	<div class="card-panel row about-card">
 		<center><h5>Philosophy</h5></center>
 			<div class="">
-			  <p class="flow-text">When learning stops dying starts. Educators,
+			  <p class="flow-text" style="padding-top: 10px;">When learning stops dying starts. Educators,
 					parents & learners are learning silently in the
 					thorough various activities, experiences,
 					observations and knowledge.
@@ -24,10 +24,10 @@
 
 	
 	<div class="container about-section">
-	<div class="card-panel row">
+	<div class="card-panel row about-card">
 		<center><h5>The Vision</h5></center>
 			<div class="">
-			  <p class="flow-text">SKUM is like a rainbow, whichever angle you look at
+			  <p class="flow-text" style="padding-top: 10px;">SKUM is like a rainbow, whichever angle you look at
 				it, there is a different advantage: the courage the
 				child develops from the school, the light thrown by
 				the school on the spiritual soul, the encouragement
@@ -41,10 +41,10 @@
 
 	
 	<div class="container about-section">
-	<div class="card-panel row">
+	<div class="card-panel row about-card">
 		<center><h5>The Mission</h5></center>
 			<div class="">
-			  <p class="flow-text">SKUM aims at providing school based education
+			  <p class="flow-text" style="padding-top: 10px;">SKUM aims at providing school based education
 				from pre-primary to higher secondary levels at
 				affordable rates in an environment characterized by
 				mutual love and respect between the teacher and
