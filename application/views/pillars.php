@@ -2,7 +2,7 @@
 <div class="container">
   <div class="section-title grey-text text-darken-4 section-sub-title"><p><span>Pillars Of SKUM</span></p></div> 
 </div>
-<div class="full-width-container event-container" style="background: #fff;"> 
+<div class="full-width-container event-container row_bottom" style="background: #fff;"> 
 
   <div class="section-container">
     <div class="col s12 m12">

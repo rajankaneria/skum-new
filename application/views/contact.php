@@ -32,7 +32,7 @@
 		        </div>
 		      </div>
 	        <div>
-	        	<input type="submit" name="send" value="Send" class="btn waves-effect waves-light #1b5e20 green darken-4">
+	        	<input type="submit" name="send" value="Send" class="btn waves-effect waves-light">
             </div>
 	      </div>
 	    </form>
@@ -41,7 +41,7 @@
 	</div>
 </div>
 </div>
-<div class="card-panel">
+<div class="card-panel" style="margin-bottom: 0px;">
 	<div class="">
 		<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.422830968057!2d72.5227263142184!3d23.04495492127573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84b26d52a0ef%3A0x3b4e66bb3d27954f!2sSKUM+School!5e0!3m2!1sen!2sin!4v1502363266359" frameborder="0" allowfullscreen></iframe>
 	</div>

@@ -72,8 +72,10 @@ nav .button-collapse{
 .card-panel{
    /* min-height: 450px;*/
 }
+.btn{ background: #EC696B; }
 .btn:hover{
     opacity: 0.7 !important;
+    background: #EC696B !important;
 }
 .map{
      border:0;width: 100%;height: 100%;min-height: 500px;
@@ -93,13 +95,13 @@ nav .button-collapse{
 input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly])
 {
 
-    border-bottom: 1px solid #2f3293;
-    -webkit-box-shadow: 0 1px 0 0 #2f3293;
-    box-shadow: 0 1px 0 0 #2f3293;
+    border-bottom: 1px solid #EC696B ;
+    -webkit-box-shadow: 0 1px 0 0 #EC696B ;
+    box-shadow: 0 1px 0 0 #EC696B ;
 }
 input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label
 {
-    color: #2f3293;
+    color: #EC696B;
 }
 /**========================
     Content Title
@@ -273,7 +275,7 @@ i.social-connect.connect-linkedin:hover {
 }
 
 .section-title.grey-text.text-darken-4.flow-text{
-    color: #2f3293 !important;
+    color: #EC696B !important;
 }
 .parallax-container{
     height: auto;
@@ -430,7 +432,9 @@ p.b-title{
 ===================================**/
 marquee{
     max-height: 150px;
-    margin-top: 15px;
+    margin-top: 10px;
+    padding: 25px !important;
+    margin-bottom: 10px;
 }
 @media(max-width: 768px){
     marquee{
@@ -438,7 +442,8 @@ marquee{
     }
 }
 marquee p{
-    color: #333333;
+    color: #eee;
+    font-weight:300;
     text-align: center !important;
 }
 
@@ -654,6 +659,7 @@ table,td,th{
      margin-left: 0px;
     margin-right: 0px;
     background: #49432B;
+    margin-bottom: 0px;
 }
 
 img.responsive-img.right.eklavya-img {
@@ -700,3 +706,13 @@ img.responsive-img.right.eklavya-img {
 }
    
 
+/**********************
+    Footer
+***********************/
+.page-footer{
+    padding-top: 0px !important;
+}
+
+.row_bottom{
+    margin-bottom: 0px;
+}
