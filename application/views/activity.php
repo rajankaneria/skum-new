@@ -1,7 +1,12 @@
 <div class="nav-top"></div>
 <div class="container">
-  <div class="section-title grey-text text-darken-4 section-sub-title"><p><span>Acivity</span></p></div> 
+  <div class="section-title grey-text text-darken-4 section-sub-title"><p><span>Activity</span></p></div> 
 </div>
+<style type="text/css">
+	.card-panel {
+    min-height: 308px;
+}
+</style>
 
 
 <div class="event-container" id="eventHouse">
@@ -39,108 +44,41 @@
 			 <div class="slider">
 			    <ul class="slides">
 			      <li>
-			        <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
-			        <div class="caption center-align">
-			          <h3>This is our big Tagline!</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0002.jpg"> <!-- random image -->			       
 			      </li>
 			      <li>
-			        <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
-			        <div class="caption left-align">
-			          <h3>Left Aligned Caption</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0022.jpg"> <!-- random image -->			      
 			      </li>
 			      <li>
-			        <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
-			        <div class="caption right-align">
-			          <h3>Right Aligned Caption</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0010.jpg"> <!-- random image -->			        
 			      </li>
 			      <li>
-			        <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
-			        <div class="caption center-align">
-			          <h3>This is our big Tagline!</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0222.jpg"> <!-- random image -->			        
 			      </li>
 			    </ul>
 			  </div>
 		    </div>  
 
-  		  </div>
-
-  		  <div id="janmastami" class="modal">
-		    <div class="modal-content">
-		       <div class="slider">
-			    <ul class="slides">
-			      <li>
-			        <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
-			        <div class="caption center-align">
-			          <h3>This is our big Tagline!</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
-			      </li>
-			      <li>
-			        <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
-			        <div class="caption left-align">
-			          <h3>Left Aligned Caption</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
-			      </li>
-			      <li>
-			        <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
-			        <div class="caption right-align">
-			          <h3>Right Aligned Caption</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
-			      </li>
-			      <li>
-			        <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
-			        <div class="caption center-align">
-			          <h3>This is our big Tagline!</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
-			      </li>
-			    </ul>
-			  </div>
-		    </div>
-
-  		  </div>
+  		  </div>  		
 
   		  <div id="august_15" class="modal">
+  		  <div class="modal-header">
+      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+    		</div>
 		    <div class="modal-content">
 		       <div class="slider">
 			    <ul class="slides">
 			      <li>
-			        <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
-			        <div class="caption center-align">
-			          <h3>This is our big Tagline!</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
+			        <img src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2269.jpg""> <!-- random image -->			       
 			      </li>
 			      <li>
-			        <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
-			        <div class="caption left-align">
-			          <h3>Left Aligned Caption</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
+			        <img src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2281.jpg""> <!-- random image -->			        
 			      </li>
 			      <li>
-			        <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
-			        <div class="caption right-align">
-			          <h3>Right Aligned Caption</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
+			        <img src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2251.jpg""> <!-- random image -->			        
 			      </li>
 			      <li>
-			        <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
-			        <div class="caption center-align">
-			          <h3>This is our big Tagline!</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
+			        <img src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2235.jpg""> <!-- random image -->			       
 			      </li>
 			    </ul>
 			  </div>
@@ -148,12 +86,132 @@
 		    
   		  </div>
 
+  		    <div id="janmastami" class="modal">
+  		    <div class="modal-header">
+      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+    		</div>
+		    <div class="modal-content">
+		       <div class="slider">
+			    <ul class="slides">
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_105245.jpg"> <!-- random image -->			       
+			      </li>
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_110234.jpg"> <!-- random image -->			      
+			      </li>
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_104923.jpg"> <!-- random image -->			        
+			      </li>
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_110438.jpg"> <!-- random image -->			        
+			      </li>
+			    </ul>
+			  </div>
+		    </div>
+
+  		  </div>
+
+        </div>     
+
+        <div class="row">        
+          <div class="col s6 m4">          	
+            <div class="card-panel pillar-card">
+            <div class="activity-title">Annual Function</div> 
+            <div class="activity-img">
+               <img class="activity-modal-trigger" src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2224.jpg" data-target="annual_function" />
+              </div>                           
+            </div>
+          </div>
+          <div class="col s6 m4">
+            <div class="card-panel pillar-card">
+             <div class="activity-title">Picnic</div> 
+                <div class="activity-img">
+                <img class="activity-modal-trigger" src="<?php echo base_url(); ?>html/images/activity/Picnic/20161223_114451.jpg" data-target="picnic" /></div>               
+            </div>
+          </div>
+          <div class="col s6 m4">
+            <div class="card-panel pillar-card">
+            <div class="activity-title">ISRO</div>
+            <div class="activity-img">
+                <img class="activity-modal-trigger" src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1922.jpg" data-target="isro" /></div>                         
+              </div>
+          </div>  
+
+          <div id="annual_function" class="modal">
+          <div class="modal-header">
+      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+    		</div>    	
+		    <div class="modal-content">
+			 <div class="slider">
+			   <ul class="slides">
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2617.jpg""> <!-- random image -->			       
+			      </li>
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2247.jpg""> <!-- random image -->			        
+			      </li>
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2348.jpg""> <!-- random image -->			        
+			      </li>
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2663.jpg""> <!-- random image -->			       
+			      </li>
+			    </ul>
+			  </div>
+		    </div>  
+
+  		  </div>
+
+  		  <div id="picnic" class="modal">
+  		  <div class="modal-header">
+      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+    		</div>
+		    <div class="modal-content">
+		       <div class="slider">
+			    <ul class="slides">
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Picnic/20161208_111725.jpg""> <!-- random image -->			       
+			      </li>
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Picnic/20161223_114640.jpg""> <!-- random image -->			        
+			      </li>
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Picnic/20161208_111856.jpg""> <!-- random image -->			        
+			      </li>
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/Picnic/20161208_111727.jpg""> <!-- random image -->			       
+			      </li>
+			    </ul>
+			  </div>
+		    </div>
+
+  		  </div>
+
+  		  <div id="isro" class="modal">
+  		  <div class="modal-header">
+      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+    		</div>	  
+		    <div class="modal-content">
+		       <div class="slider">
+			    <ul class="slides">
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1909.jpg""> <!-- random image -->			       
+			      </li>
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1913.jpg""> <!-- random image -->			        
+			      </li>
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1922.jpg""> <!-- random image -->			        
+			      </li>
+			      <li>
+			        <img src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1914.jpg""> <!-- random image -->			       
+			      </li>
+			    </ul>
+			  </div>
+		    </div>		    
+  		  </div>  		  
+        </div> 
 
 
-
-
-
-
-        </div>        
     </div>
 </div>

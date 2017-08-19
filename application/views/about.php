@@ -2,8 +2,11 @@
 <div class="container">
 	<div class="section-title grey-text text-darken-4 section-sub-title"><p><span>About SKUM</span></p></div>
 </div>
+
 <div class="card-panel row row_bottom">
+
 	<div class="container about-section">
+	<div class="card-panel row">
 		<center><h5>Philosophy</h5></center>
 			<div class="">
 			  <p class="flow-text">When learning stops dying starts. Educators,
@@ -17,9 +20,11 @@
 					life is not knowledge but actions.</p>
 			</div>
 	</div>
+	</div>
 
-
+	
 	<div class="container about-section">
+	<div class="card-panel row">
 		<center><h5>The Vision</h5></center>
 			<div class="">
 			  <p class="flow-text">SKUM is like a rainbow, whichever angle you look at
@@ -32,8 +37,11 @@
 				</p>					
 			</div>
 	</div>
+	</div>
 
+	
 	<div class="container about-section">
+	<div class="card-panel row">
 		<center><h5>The Mission</h5></center>
 			<div class="">
 			  <p class="flow-text">SKUM aims at providing school based education
@@ -45,4 +53,5 @@
 				enable each student to achieve his / her dream.</p>
 			</div>
 	</div>
-</div>
+	</div>
+
