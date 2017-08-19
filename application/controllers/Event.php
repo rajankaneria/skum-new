@@ -8,10 +8,10 @@ class Event  extends CI_Controller {
 	{		
 		$headerData = array(
 			"pageTitle" => "Event ",
-			"stylesheet" => array("dashboard.css")
+			"stylesheet" => array("dashboard.css",'event.css')
 		);
 		$footerData = array(
-			"jsFiles" => array("dashboard.js")
+			"jsFiles" => array("dashboard.js",'event.js')
 		);
 		$viewData = array(
 			"viewName" => "event",
