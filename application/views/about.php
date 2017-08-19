@@ -1,6 +1,6 @@
 <div class="nav-top"></div>
 <div class="container">
-	<div class="section-title grey-text text-darken-4 flow-text"><p><strong>About SKUM</strong></p></div>
+	<div class="section-title grey-text text-darken-4 section-sub-title"><p><span>About SKUM</span></p></div>
 </div>
 <div class="card-panel row">
 	<div class="container about-section">
@@ -15,7 +15,6 @@
 					Participative attitude round the clock makes the
 					learning in all walks of life applicable. Great end of
 					life is not knowledge but actions.</p>
-
 			</div>
 	</div>
 
@@ -46,7 +45,4 @@
 				enable each student to achieve his / her dream.</p>
 			</div>
 	</div>
-
-
-
 </div>

@@ -646,6 +646,7 @@ table,td,th{
 }
 
 
+
  /**********************
     Mission Eklavya
  **********************/  
@@ -670,3 +671,32 @@ img.responsive-img.right.eklavya-img {
     color: ghostwhite;
     font-weight: 300;
 }
+
+.activity-img img{ 
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    cursor: pointer;
+}
+.activity-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #484848;
+    margin-bottom: 10px;
+    color: #ec696b;
+    border-bottom: solid 3px #ec696b;
+}
+.modal {overflow-y: hidden !important;max-height: 100% !important}
+.modal-header {
+    text-align: right;
+    padding-top: 10px
+}
+.modal .modal-close {
+    cursor: pointer;
+    font-size: 35px;
+    color: #aaa;    
+}
+   
+
