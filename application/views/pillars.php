@@ -2,7 +2,7 @@
 <div class="container">
   <div class="section-title grey-text text-darken-4 section-sub-title"><p><span>Pillars Of SKUM</span></p></div> 
 </div>
-<div class="full-width-container event-container" style="background: #fff;"> 
+<div class="full-width-container event-container row_bottom" style="background: #fff;"> 
 
   <div class="section-container">
     <div class="col s12 m12">
@@ -52,8 +52,9 @@
     </div>
 
     <div class="col s12 m12">      
-        <div class="row">        
-          <div class="col s6 m3">
+        <div class="row">  
+        <div class="col m1" style="width: 12%;"></div>      
+          <div class="col s12 m3">
               <div class="card-panel pillar-card"><div class="pillars-img">
                 <img src="<?php echo base_url(); ?>html/images/photos/C.K. Patel.jpg" /></div> 
                 <div class="pillars-des">Chairman</div>
@@ -79,8 +80,9 @@
 
 
  <div class="col s12 m12">    
-        <div class="row">        
-          <div class="col s6 m3">
+        <div class="row">      
+        <div class="col m1" style="width: 12%;"></div>    
+          <div class="col s12 m3">
                <div class="card-panel pillar-card"><div class="pillars-img">
                 <img src="<?php echo base_url(); ?>html/images/photos/vasudevbhai.jpg" /></div>
                 <div class="pillars-des">Joint Secretary</div>
@@ -237,14 +239,16 @@
     </div>
 
     <div class="col s12 m12">      
-        <div class="row">        
-          <div class="col s6 m3">
+        <div class="row">    
+          <div class="col m4" style="width: 38%;"></div>   
+          <div class="col s12 m3">
               <div class="card-panel pillar-card"><div class="pillars-img">
                 <img src="<?php echo base_url(); ?>html/images/photos/Mr. Sakalchand C. Patel.jpg" /></div>
                 <div class="pillars-des">Co. Op. Trustee</div>
                <div class="pillars-name">Mr. Sakalchand C. Patel</div> 
               </div>
-          </div>                               
+          </div> 
+          <div class="col m4"></div>                                 
         </div>            
     </div>
     </div>

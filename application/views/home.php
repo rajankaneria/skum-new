@@ -177,18 +177,17 @@
           </div>
       </div>
     </div>
-
-    <div class="col s12 m12">
-    <div class="event-title">Latest News</div>
-    <div class="card-panel white">
-      
-                <marquee direction = "up" scrollamount="2">
-                  <p>SKUM school to organise Clean Ahmedabad campaign from 71st Independence Day.</p>
-                  <p>SKUM to provide digital education to all the students from new academic year.</p>
-                </marquee>
-    </div>                
-  </div>
+</div>
 </div>
 
-  </div>
+<div class="col s12 m12 full-width-container z-depth-1 news-container">
+  <div class="event-title"><font style="color: #fff;">Latest</font> <strong>News</strong></div>
+  <div class="container">
+    <div class="news">
+      <marquee direction = "up" scrollamount="2">
+        <p>SKUM school to organise Clean Ahmedabad campaign from 71st Independence Day.</p>
+        <p>SKUM to provide digital education to all the students from new academic year.</p>
+      </marquee>
+    </div>
+  </div>  
 </div>

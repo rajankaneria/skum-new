@@ -153,6 +153,16 @@
     background: #ec696b;
 }
 
+.full-width-container.news-container {
+    background: #ec696b;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.news{
+    background: none !important;
+    box-shadow: none;
+}
 
 .service-title {
     text-align: center;
