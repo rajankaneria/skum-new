@@ -32,6 +32,9 @@
           </div>  
 
           <div id="garba" class="modal">
+           <div class="modal-header">
+      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+    		</div>
 		    <div class="modal-content">
 			 <div class="slider">
 			    <ul class="slides">
@@ -65,7 +68,7 @@
 			      </li>
 			    </ul>
 			  </div>
-		    </div>
+		    </div>  
 
   		  </div>
 
