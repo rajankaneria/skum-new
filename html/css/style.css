@@ -660,7 +660,12 @@ table,td,th{
     color: #ec696b;
     border-bottom: solid 3px #ec696b;
 }
-.modal {overflow-y: hidden !important;max-height: 100% !important}
+.modal {
+    overflow-y: hidden !important;
+    max-height: 100% !important;
+    border: 3px solid #ec696b;
+    border-radius: 10px;
+}
 .modal-header {
     text-align: right;
     padding-top: 10px
@@ -669,5 +674,8 @@ table,td,th{
     cursor: pointer;
     font-size: 35px;
     color: #aaa;    
+}
+.slider .indicators .indicator-item.active {
+    background-color: #ec696b;
 }
    
