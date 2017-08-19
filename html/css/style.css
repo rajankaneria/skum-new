@@ -646,4 +646,27 @@ table,td,th{
 }
 
 
-   
+ /**********************
+    Mission Eklavya
+ **********************/  
+.row.eklavya-bg{
+     margin-left: 0px;
+    margin-right: 0px;
+    background: #49432B;
+}
+
+img.responsive-img.right.eklavya-img {
+    width: auto;
+    height: 700px !important;
+    right: 0px;
+    margin-right: -10px;
+    margin-bottom: -20px;
+}
+.eklavya-bg li{
+    color: #E0E0E0;
+}
+.eklavya-bg h4
+{
+    color: ghostwhite;
+    font-weight: 300;
+}
