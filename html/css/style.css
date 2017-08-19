@@ -737,5 +737,10 @@ img.responsive-img.right.eklavya-img {
 .row_bottom{
     margin-bottom: 0px;
 }
-
+.news_title{    margin-top: 25px !important;
+    margin-bottom: 25px !important;}
+marquee {
+    height: 115px;
+}
+.about-card{background: #fdfafa !important;}
 

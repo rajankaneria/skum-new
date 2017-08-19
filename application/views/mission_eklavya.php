@@ -1,7 +1,7 @@
 <div class="nav-top"></div>
 
 <div class="container">
-  <div class="section-title grey-text text-darken-4 section-sub-title"><img src="html/images/eklavya_logo.jpg" class="responsive-img">
+  <div class="section-title grey-text text-darken-4 section-sub-title" style="margin-top: 0 !important;margin-bottom:0 !important;"><img src="html/images/eklavya_logo.jpg" class="responsive-img">
   </div> 
 </div>
 <div class="row eklavya-bg">
