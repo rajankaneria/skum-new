@@ -50,7 +50,7 @@
         <li><a href="Institute" >Institute</a></li>
         <li><a href="Activity">Activity</a></li>
         <li><a href="Event">Event</a></li>
-        <li><a href="#!">Mission Eklavya</a></li>
+        <li><a href="<?php echo base_url();?>Mission_Eklavya">Mission Eklavya</a></li>
         <li><a href="contact">Contact us</a></li>
       </ul>
         
