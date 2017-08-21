@@ -1,10 +1,10 @@
 <div class="nav-top"></div>
 <div class="container">
-  <div class="section-title grey-text text-darken-4 section-sub-title"><p><span>Activity</span></p></div> 
+ <div class="section-title grey-text text-darken-4 section-sub-title"><p><span>Activity</span></p></div> 
 </div>
 <style type="text/css">
 	.card-panel {
-    min-height: 308px;
+    min-height: 366px;
 }
 </style>
 
@@ -14,31 +14,34 @@
 	 <div class="col s12 m12">    
         <div class="row">        
           <div class="col s6 m4">          	
-            <div class="card-panel pillar-card">
+            <div class="card-panel activity-card activity-modal-trigger" data-target="garba">
+            <div class="grey-overlay"></div>            
             <div class="activity-title">Garba</div> 
             <div class="activity-img">
-              <img class="activity-modal-trigger" src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0301.jpg" data-target="garba" />
+              <img  src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0301.jpg"  / >
               </div>                           
             </div>
           </div>
           <div class="col s6 m4">
-            <div class="card-panel pillar-card">
+            <div class="card-panel activity-card activity-modal-trigger" data-target="august_15">
+            <div class="grey-overlay"></div>
              <div class="activity-title">15 August</div> 
                 <div class="activity-img">
-                <img class="activity-modal-trigger" src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2223.jpg" data-target="august_15" /></div>               
+                <img  src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2223.jpg"  /></div>               
             </div>
           </div>
           <div class="col s6 m4">
-            <div class="card-panel pillar-card">
-            <div class="activity-title">Janmastami </div>
+            <div class="card-panel activity-card activity-modal-trigger" data-target="janmastami">
+            <div class="grey-overlay"></div>
+            <div class="activity-title">Janmastami</div>
             <div class="activity-img">
-                <img class="activity-modal-trigger" src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_104834.jpg" data-target="janmastami" /></div>                         
+                <img  src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_104834.jpg"  /></div>                         
               </div>
           </div>  
 
           <div id="garba" class="modal">
            <div class="modal-header">
-      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="fa fa-window-close-o" aria-hidden="true"></i></a>
     		</div>
 		    <div class="modal-content">
 			 <div class="slider">
@@ -58,12 +61,11 @@
 			    </ul>
 			  </div>
 		    </div>  
-
   		  </div>  		
 
   		  <div id="august_15" class="modal">
   		  <div class="modal-header">
-      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="fa fa-window-close-o" aria-hidden="true"></i></a>
     		</div>
 		    <div class="modal-content">
 		       <div class="slider">
@@ -82,13 +84,12 @@
 			      </li>
 			    </ul>
 			  </div>
-		    </div>
-		    
+		    </div>		    
   		  </div>
 
   		    <div id="janmastami" class="modal">
   		    <div class="modal-header">
-      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="fa fa-window-close-o" aria-hidden="true"></i></a>
     		</div>
 		    <div class="modal-content">
 		       <div class="slider">
@@ -108,38 +109,39 @@
 			    </ul>
 			  </div>
 		    </div>
-
   		  </div>
-
         </div>     
 
         <div class="row">        
           <div class="col s6 m4">          	
-            <div class="card-panel pillar-card">
+            <div class="card-panel activity-card activity-modal-trigger" data-target="annual_function">
+            <div class="grey-overlay"></div>
             <div class="activity-title">Annual Function</div> 
             <div class="activity-img">
-               <img class="activity-modal-trigger" src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2224.jpg" data-target="annual_function" />
+               <img  src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2224.jpg"  />
               </div>                           
             </div>
           </div>
           <div class="col s6 m4">
-            <div class="card-panel pillar-card">
+            <div class="card-panel activity-card activity-modal-trigger" data-target="picnic">
+            <div class="grey-overlay"></div>
              <div class="activity-title">Picnic</div> 
                 <div class="activity-img">
-                <img class="activity-modal-trigger" src="<?php echo base_url(); ?>html/images/activity/Picnic/20161223_114451.jpg" data-target="picnic" /></div>               
+                <img  src="<?php echo base_url(); ?>html/images/activity/Picnic/20161223_114451.jpg"  /></div>               
             </div>
           </div>
           <div class="col s6 m4">
-            <div class="card-panel pillar-card">
+            <div class="card-panel activity-card activity-modal-trigger" data-target="isro" >
+            <div class="grey-overlay"></div>
             <div class="activity-title">ISRO</div>
             <div class="activity-img">
-                <img class="activity-modal-trigger" src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1922.jpg" data-target="isro" /></div>                         
+                <img  src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1922.jpg" /></div>                         
               </div>
           </div>  
 
           <div id="annual_function" class="modal">
           <div class="modal-header">
-      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="fa fa-window-close-o" aria-hidden="true"></i></a>
     		</div>    	
 		    <div class="modal-content">
 			 <div class="slider">
@@ -164,7 +166,7 @@
 
   		  <div id="picnic" class="modal">
   		  <div class="modal-header">
-      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="fa fa-window-close-o" aria-hidden="true"></i></a>
     		</div>
 		    <div class="modal-content">
 		       <div class="slider">
@@ -189,7 +191,7 @@
 
   		  <div id="isro" class="modal">
   		  <div class="modal-header">
-      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="fa fa-window-close-o" aria-hidden="true"></i></a>
     		</div>	  
 		    <div class="modal-content">
 		       <div class="slider">
@@ -210,8 +212,6 @@
 			  </div>
 		    </div>		    
   		  </div>  		  
-        </div> 
-
-
+        </div>
     </div>
 </div>

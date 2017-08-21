@@ -650,6 +650,7 @@ table,td,th{
 .pillar-card.card-panel {
     margin: 25px;
     background: #f5f5f5;
+
 }
 
 
@@ -694,7 +695,9 @@ img.responsive-img.right.eklavya-img {
     color: #484848;
     margin-bottom: 10px;
     color: #ec696b;
-    border-bottom: solid 3px #ec696b;
+    position: absolute;
+    top:50%;    
+    left: 50%;
 }
 .modal {
     overflow-y: hidden !important;
@@ -704,12 +707,20 @@ img.responsive-img.right.eklavya-img {
 }
 .modal-header {
     text-align: right;
-    padding-top: 10px
+    padding: 0px !important;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+
 }
 .modal .modal-close {
     cursor: pointer;
     font-size: 35px;
-    color: #aaa;    
+    color: #aaa; 
+    z-index: 200;      
+}
+.modal .modal-content {
+     padding:0px !important; 
 }
 .slider .indicators .indicator-item.active {
     background-color: #ec696b;
@@ -743,4 +754,25 @@ marquee {
     height: 115px;
 }
 .about-card{background: #fdfafa !important;}
+.grey-overlay {
+    background: rgba(0,0,0,.5);
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    cursor: pointer;
+ }
+.grey-overlay:hover {   
+ background: rgba(0,0,0,0.7);}
+
+.activity-card.card-panel {
+    margin: 25px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 0px;
+}
+.btn-flat i {
+    font-size: 2.3rem;
+    color: #fff;}
+.btn-flat{padding: 0px !important}
 
