@@ -4,692 +4,129 @@
 </div>
 
 
-<div class="event-container" id="eventHouse">
-<div class="section-container"></div>
-</div>
+
+<div class="full-width-container white z-depth-1">  
+  <div class="row">
+    <div class="col s2">
+        <div class="card-panel event-section-links">
+          <div data-target="house" class="event-section-link-item">Houses</div>
+          <div data-target="holidayList" class="event-section-link-item">LIST OF HOLIDAYS</div>
+          <div data-target="compititions" class="event-section-link-item">COMPETITIONS</div>
+          <div data-target="importantDays" class="event-section-link-item">Important Days</div>
+          <div data-target="firstTermExam" class="event-section-link-item">First Term Exams</div>
+        </div>
+    </div>
+    <div class="col s10">
+          <div class="event-data" id="house"></div>
+          <div class="event-data" id="firstTermExam">
+            <table width="97%" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC">
+              <tbody><tr>
+                <td height="24" colspan="7" bgcolor="#66CCFF"><div align="center"><span class="subtitle">First Term Exams</span></div></td>
+              </tr>
+              <tr>
+                <td width="16%" bgcolor="#E9E9E9" class="sub-catagories-bg"><div align="center">Standard Date</div></td>
+                <td width="10%" bgcolor="#E9E9E9" class="sub-catagories-bg"><div align="center">Day</div></td>
+                <td width="15%" bgcolor="#E9E9E9" class="sub-catagories-bg"><div align="center">VIII</div></td>
+                <td width="15%" bgcolor="#E9E9E9" class="sub-catagories-bg"><div align="center">IX</div></td>
+                <td width="15%" bgcolor="#E9E9E9" class="sub-catagories-bg"><div align="center">X</div></td>
+                <td width="15%" bgcolor="#E9E9E9" class="sub-catagories-bg"><div align="center">XI</div></td>
+                <td width="14%" bgcolor="#E9E9E9" class="sub-catagories-bg"><div align="center">XII</div></td>
+              </tr>
+              <tr>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">13/09/2010</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Monday</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Science</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Maths</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Social Science</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Economic</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Account</div></td>
+              </tr>
+              <tr>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">14/09/2010</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Tuesday</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Gujarati</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Hindi</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Gujarati</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">English-1</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">English</div></td>
+              </tr>
+              <tr>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">15/09/2010</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Wednesday</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Maths</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">English-1</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Stats</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+              </tr>
+              <tr>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">16/09/2010</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Thursday</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Hindi</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Gujarati</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Science</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Gujarati</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Economic</div></td>
+              </tr>
+              <tr>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">17/09/2010</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Friday</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">English-1</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Science</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+              </tr>
+              <tr>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">18/09/2010</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Saturday</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Sunskrit</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">English-2</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">English</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">English-2</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Stact</div></td>
+              </tr>
+              <tr>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">19/09/2010</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Sunday</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+              </tr>
+              <tr>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">20/09/2010</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Monday</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Account</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">BA</div></td>
+              </tr>
+              <tr>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">21/09/2010</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Tuesday</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">English-2</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Social Science</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Maths</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+              </tr>
+              <tr>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">22/09/2010</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Wednesday</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Social Science</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Sunskrit</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Hindi/Sunskrit</div></td>
+               <td bgcolor="#FFFFFF" class="font12"><div align="center">BA</div></td>
+                <td bgcolor="#FFFFFF" class="font12"><div align="center">Gujarat</div></td>
+              </tr>
+            </tbody></table>
 
 
-<div class="event-container" id="listOfholidays">
-<div class="section-container">
-	<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#f4e5e5">
-        <tbody><tr>
-        <td width="5" align="left" valign="top"></td>
-          <td width="200" align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="left-boarder">
-  <tbody>
-  <tr>
-    <td class="sub-catagories-bg">&nbsp;&nbsp;<img src="image/bullet.gif" align="absmiddle">&nbsp;&nbsp;Main Links</td>
-  </tr>
-   <tr>
-    <td height="5" align="left" valign="middle"></td>
-  </tr>
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="index.html" class="main">Home</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="why_skum.html" class="main">Why SKUM ?</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="the_begininng.html" class="main">The Begining</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="salient_features.html" class="main">Salient Features</a></td>
-  </tr>
-  
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="rules_ragulations.html" class="main">Rules &amp; Ragulation</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="News &amp; Events20.html" class="main">News &amp; Events</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="photo_gallery.html" class="main">Photo Gallery</a></td>
-  </tr>
-   
-  <tr>
-    <td height="5" align="left" valign="middle"></td>
-  </tr>
-  <tr height="5">
-    <td></td>
-  </tr>   
-  <tr>
-    <td height="5" align="left" valign="middle"></td>
-  </tr>
-  <tr height="5">
-    <td></td>
-  </tr>
-    
-  <tr>
-    <td>&nbsp;</td>
-  </tr>
-  <tr height="5">
-    <td></td>
-  </tr>
-</tbody></table></td>
-          
-          <td align="center" valign="top"><!-- InstanceBeginEditable name="EditRegion3" -->
-            <table width="97%" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC">
-  <tbody><tr>
-    <td colspan="4" align="center" valign="top" class="subtitle" bgcolor="#66CCFF">LIST OF HOLIDAYS : 2010 - 2011</td>
-    </tr>
-   <tr>
-    <td align="left" valign="top" class="sub-catagories-bg">&nbsp;No.</td>
-    <td align="left" valign="top" class="sub-catagories-bg">&nbsp;Occasion</td>
-    <td align="left" valign="top" class="sub-catagories-bg">&nbsp;Date</td>
-    <td align="left" valign="top" class="sub-catagories-bg">&nbsp;Day</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">1.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Independense Day</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">15-08-10</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Sunday</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">2.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Rakshabandhan</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">24-08-10</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Tuesday</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">3.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Janmashtami</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">02-09-10</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Thursday</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">4.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Ramzan Idd</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">10-09-10</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Friday</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">5.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Samvatsari</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">11-09-10</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Saturday</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">6.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Gandhi Jayanti</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">02-10-10</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Saturday</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">7.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Navratri </td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">8.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Christmas</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">25-12-10</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Saturday</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">9.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">New Year Day</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">01-01-11</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Saturday</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">10.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Uttarayan</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">14-01-11</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Friday</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">11.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Vasi Uttarayan</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">15-01-11</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Saturday</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">12.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Republic Day</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">26-01-11</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Wednesday</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">13.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Mahs Shivratr</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">12-02-11</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Saturday</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">14.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Dhuleti</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">01-03-11</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Tuesday</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">15.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Ramnavami</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">24-03-11</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Thursday</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">16.</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Ambedkar Jayanti</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">14-04-11</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Thursday</td>
-  </tr>
-</tbody></table>
-
-            <br>
-<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">  
-    <tbody><tr><td width="100%" height="36"><table width="30%" border="0" align="center" cellpadding="0" cellspacing="0">  
-  <tbody>
-</tbody></table>
-</td></tr>
-</tbody></table>
-<!-- InstanceEndEditable --></td>          
-</tr>
-</tbody></table>
-</div>
-</div>
-<div class="event-container" id="preprimaryActivity">
-	
-	<div class="section-container">
-	<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#f4e5e5">
-        <tbody><tr>
-        <td width="5" align="left" valign="top"></td>
-          <td width="200" align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="left-boarder">
-  <tbody>
-  <tr>
-    <td class="sub-catagories-bg">&nbsp;&nbsp;<img src="image/bullet.gif" align="absmiddle">&nbsp;&nbsp;Main Links</td>
-  </tr>
-   <tr>
-    <td height="5" align="left" valign="middle"></td>
-  </tr>
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="index.html" class="main">Home</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="why_skum.html" class="main">Why SKUM ?</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="the_begininng.html" class="main">The Begining</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="salient_features.html" class="main">Salient Features</a></td>
-  </tr>
-  
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="rules_ragulations.html" class="main">Rules &amp; Ragulation</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="News &amp; Events20.html" class="main">News &amp; Events</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="photo_gallery.html" class="main">Photo Gallery</a></td>
-  </tr>
-   
-  <tr>
-    <td height="5" align="left" valign="middle"></td>
-  </tr>
-  <tr height="5">
-    <td></td>
-  </tr>   
-  <tr>
-    <td height="5" align="left" valign="middle"></td>
-  </tr>
-  <tr height="5">
-    <td></td>
-  </tr>
-    
-  <tr>
-    <td>&nbsp;</td>
-  </tr>
-  <tr height="5">
-    <td></td>
-  </tr>
-</tbody></table></td>
-          
-          <td align="center" valign="top"><!-- InstanceBeginEditable name="EditRegion3" -->
-            <table width="97%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
-  <tbody><tr>
-    <td colspan="4" align="center" valign="top" bgcolor="#FFFFFF" class="subtitle">PRE-PRIMARY ACTIVITES / COMPETITIONS / CELEBRATIONS<br>
-      YEAR : 2009-10</td>
-    </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="sub-catagories-bg">&nbsp;Month</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="sub-catagories-bg">&nbsp;Date</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="sub-catagories-bg">&nbsp;Activity / Compititions / Celebrations</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12"><span class="style2">June</span></td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">26-06-2009</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Summer Wear Day (Free cotton outfits)<br>
-      Making of Lemon Juce<br><br></td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">July</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">09-07-2009</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Read Day<br><br></td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">August</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">15-08-2009</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Independense Day Celebration</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">04-08-2009</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Rakshabandhan Celebration</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">13-08-2009</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Janmashtami Celebration<br><br></td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">September</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">05-09-2009</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Teacher's Day Celebration</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">18-09-2009</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">White Day Celebration</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">24-09-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Threading the Beads Competition </td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">(Nur.)</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">24-09-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Separating the Grains Competitions</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">(JR. KG.)</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">24-09-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Identification of Shapes</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">(SR. KG.)</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">25-09-2009</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Navaratri Celebration<br><br></td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Octomber</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">09-10-2009</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Yellow Day</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">16-10-2009</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Diwali Celebration (Traditional Wear)<br><br></td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">November</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">13-11-2009</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Children's Day Celebration - Fancy Dress</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">20-11-2009</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Green Day Celebration</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">27-11-2009</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Fruit Day Celebration<br><br></td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">December</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Picnic</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">18-12-2009</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Orange Day Celebration</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">24-12-2009</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Christmas Celebration<br><br></td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">January</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">13-01-2010</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Uttarayan Celebration</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">29-01-2010</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Recitation Copetition<br><br></td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">February</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">2<sup>nd</sup> Week</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Annual Function<br><br></td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">March</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">1<sup>st</sup> Week</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Picnic</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">31-03-2010</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Pink Day Celebration</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-  </tr>
-</tbody></table>
-            <br>
-<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">  
-    <tbody><tr><td width="100%" height="36"><table width="30%" border="0" align="center" cellpadding="0" cellspacing="0">  
-  <tbody>
-</tbody></table>
-</td></tr>
-</tbody></table>
-<!-- InstanceEndEditable --></td>          
-</tr>
-</tbody></table>
-</div>
-
-</div>
-<div class="event-container" id="primarySecondaryActivity">
-	
-	<div class="section-container">
-	<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#f4e5e5">
-        <tbody><tr>
-        <td width="5" align="left" valign="top"></td>
-          <td width="200" align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="left-boarder">
-  <tbody>
-  <tr>
-    <td class="sub-catagories-bg">&nbsp;&nbsp;<img src="image/bullet.gif" align="absmiddle">&nbsp;&nbsp;Main Links</td>
-  </tr>
-   <tr>
-    <td height="5" align="left" valign="middle"></td>
-  </tr>
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="index.html" class="main">Home</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="why_skum.html" class="main">Why SKUM ?</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="the_begininng.html" class="main">The Begining</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="salient_features.html" class="main">Salient Features</a></td>
-  </tr>
-  
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="rules_ragulations.html" class="main">Rules &amp; Ragulation</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="News &amp; Events20.html" class="main">News &amp; Events</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="photo_gallery.html" class="main">Photo Gallery</a></td>
-  </tr>
-   
-  <tr>
-    <td height="5" align="left" valign="middle"></td>
-  </tr>
-  <tr height="5">
-    <td></td>
-  </tr>   
-  <tr>
-    <td height="5" align="left" valign="middle"></td>
-  </tr>
-  <tr height="5">
-    <td></td>
-  </tr>
-    
-  <tr>
-    <td>&nbsp;</td>
-  </tr>
-  <tr height="5">
-    <td></td>
-  </tr>
-</tbody></table></td>
-          
-          <td align="center" valign="top"><!-- InstanceBeginEditable name="EditRegion3" -->
-           <table width="97%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
-  <tbody><tr>
-    <td colspan="4" align="center" valign="top" bgcolor="#FFFFFF" class="subtitle">PRIMARY &amp; SECONDARY<br>
-      ACTIVITIES / COMPETITIONS / CELEBRATIONS<br>YEAR : 2009 - 10<br><br></td>
-    </tr>
-  <tr>
-    <td colspan="4" align="left" valign="top" bgcolor="#FFFFFF" class="font12">The School firmly believes that textual studies are only a part of the full development of child, and therefore, SKUM provides a spectrum activites. Various activities are for promoting the development of a balanced and harmonious personality of the students aimes at physical, practical, aesthetic, moral and intellectual aspects.<br><br></td>
-    </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="sub-catagories-bg">&nbsp;Month</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="sub-catagories-bg">&nbsp;Date</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="sub-catagories-bg">&nbsp;Activity / Competitions / Celebrations</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="sub-catagories-bg">&nbsp;Grade</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">June</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">26-06-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Summer Wear Day (Free cottons outfits)<br><br></td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">July</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">07-07-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Gurupurnima Celebration</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">11-07-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Handwriting Competition</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IV</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">11-07-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Calligraphy Competition</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">V to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">18-07-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Show and Tell Competition<br><br></td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">August</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">04-08-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Rakshabandhan Celebration</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">13-08-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Janmashtami Celebration</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">15-08-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Independence Day Celebration<br><br></td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">September</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">05-09-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Tearcher's Day Celebration</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">25-09-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Navratri Celebration<br><br></td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">October</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">15-10-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Class Decoration Competition<br>(Traditional Way)</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">16-10-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Diwali Celebration (Traditional Wear)<br><br></td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">November</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">14-11-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Children's Day Celebration - Fancy Dress</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">16-11-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Fancy Dress Competition</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IV</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">16-11-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Elocution Comp / Essay Writing<br><br></td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">V to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">December</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">1<sup>st</sup> Week</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Picnic / Educational Trip</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">24-12-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Cristmas Celebration</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">24-12-2009</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Solo Dance Competition<br><br></td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">January</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">13-01-2010</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Uttarayan Celebration</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">20-01-2010</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Annual Sports Day<br><br></td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">I to IX</td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">February</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">2<sup>nd</sup> Week</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Annual Function</td>
-    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
-  </tr>
-</tbody></table>
-            <br>
-<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">  
-    <tbody><tr><td width="100%" height="36"><table width="30%" border="0" align="center" cellpadding="0" cellspacing="0">  
-  <tbody>
-</tbody></table>
-</td></tr>
-</tbody></table>
-<!-- InstanceEndEditable --></td>          
-</tr>
-</tbody></table>
-</div>
-</div>
-<div class="event-container" id="importantDays">
-	
-	<div class="section-container">
-	<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#f4e5e5">
-        <tbody><tr>
-        <td width="5" align="left" valign="top"></td>
-          <td width="200" align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="left-boarder">
-  <tbody>
-  <tr>
-    <td class="sub-catagories-bg">&nbsp;&nbsp;<img src="image/bullet.gif" align="absmiddle">&nbsp;&nbsp;Main Links</td>
-  </tr>
-   <tr>
-    <td height="5" align="left" valign="middle"></td>
-  </tr>
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="index.html" class="main">Home</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="why_skum.html" class="main">Why SKUM ?</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="the_begininng.html" class="main">The Begining</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="salient_features.html" class="main">Salient Features</a></td>
-  </tr>
-  
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="rules_ragulations.html" class="main">Rules &amp; Ragulation</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="News &amp; Events20.html" class="main">News &amp; Events</a></td>
-  </tr>
-   
-  <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="photo_gallery.html" class="main">Photo Gallery</a></td>
-  </tr>
-   
-  <tr>
-    <td height="5" align="left" valign="middle"></td>
-  </tr>
-  <tr height="5">
-    <td></td>
-  </tr>   
-  <tr>
-    <td height="5" align="left" valign="middle"></td>
-  </tr>
-  <tr height="5">
-    <td></td>
-  </tr>
-    
-  <tr>
-    <td>&nbsp;</td>
-  </tr>
-  <tr height="5">
-    <td></td>
-  </tr>
-</tbody></table></td>
-          
-          <td align="center" valign="top"><!-- InstanceBeginEditable name="EditRegion3" -->
+          </div>
+          <div class="event-data" id="importantDays">
             <table width="97%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
   <tbody><tr>
     <td colspan="3" align="center" valign="top" bgcolor="#FFFFFF" class="subtitle">Important Days</td>
@@ -890,197 +327,258 @@
     <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Red Ross Day</td>
   </tr>
 </tbody></table>
-            <br>
-<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">  
-    <tbody><tr><td width="100%" height="36"><table width="30%" border="0" align="center" cellpadding="0" cellspacing="0">  
-  <tbody>
-</tbody></table>
-</td></tr>
-</tbody></table>
-<!-- InstanceEndEditable --></td>          
-</tr>
-</tbody></table>
-</div>
-</div>
-<div class="event-container" id="firstTermExam">
-	
-	<div class="section-container">
-	<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#f4e5e5">
-        <tbody><tr>
-        <td width="5" align="left" valign="top"></td>
-          <td width="200" align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="left-boarder">
-  <tbody>
+          </div>
+          <div class="event-data" id="compititions"><table width="97%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+  <tbody><tr>
+    <td colspan="4" align="center" valign="top" bgcolor="#FFFFFF" class="subtitle">PRE-PRIMARY ACTIVITES / COMPETITIONS / CELEBRATIONS<br>
+      YEAR : 2009-10</td>
+    </tr>
   <tr>
-    <td class="sub-catagories-bg">&nbsp;&nbsp;<img src="image/bullet.gif" align="absmiddle">&nbsp;&nbsp;Main Links</td>
-  </tr>
-   <tr>
-    <td height="5" align="left" valign="middle"></td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="sub-catagories-bg">&nbsp;Month</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="sub-catagories-bg">&nbsp;Date</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="sub-catagories-bg">&nbsp;Activity / Compititions / Celebrations</td>
   </tr>
   <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="index.html" class="main">Home</a></td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12"><span class="style2">June</span></td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">26-06-2009</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Summer Wear Day (Free cotton outfits)<br>
+      Making of Lemon Juce<br><br></td>
   </tr>
-   
   <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="why_skum.html" class="main">Why SKUM ?</a></td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">July</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">09-07-2009</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Read Day<br><br></td>
   </tr>
-   
   <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="the_begininng.html" class="main">The Begining</a></td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">August</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">15-08-2009</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Independense Day Celebration</td>
   </tr>
-   
   <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="salient_features.html" class="main">Salient Features</a></td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">04-08-2009</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Rakshabandhan Celebration</td>
   </tr>
-  
   <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="rules_ragulations.html" class="main">Rules &amp; Ragulation</a></td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">13-08-2009</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Janmashtami Celebration<br><br></td>
   </tr>
-   
   <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="News &amp; Events20.html" class="main">News &amp; Events</a></td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">September</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">05-09-2009</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Teacher's Day Celebration</td>
   </tr>
-   
   <tr>
-    <td align="left" valign="middle" bgcolor="#CCCCCC"><a href="photo_gallery.html" class="main">Photo Gallery</a></td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">18-09-2009</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">White Day Celebration</td>
   </tr>
-   
   <tr>
-    <td height="5" align="left" valign="middle"></td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">24-09-2009</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Threading the Beads Competition </td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">(Nur.)</td>
   </tr>
-  <tr height="5">
-    <td></td>
-  </tr>   
   <tr>
-    <td height="5" align="left" valign="middle"></td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">24-09-2009</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Separating the Grains Competitions</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">(JR. KG.)</td>
   </tr>
-  <tr height="5">
-    <td></td>
-  </tr>
-    
   <tr>
-    <td>&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">24-09-2009</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Identification of Shapes</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">(SR. KG.)</td>
   </tr>
-  <tr height="5">
-    <td></td>
+  <tr>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">25-09-2009</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Navaratri Celebration<br><br></td>
   </tr>
-</tbody></table></td>
-          
-          <td align="center" valign="top"><!-- InstanceBeginEditable name="EditRegion3" -->
-            <table width="97%" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC">
+  <tr>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Octomber</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">09-10-2009</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Yellow Day</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">16-10-2009</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Diwali Celebration (Traditional Wear)<br><br></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">November</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">13-11-2009</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Children's Day Celebration - Fancy Dress</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">20-11-2009</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Green Day Celebration</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">27-11-2009</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Fruit Day Celebration<br><br></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">December</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Picnic</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">18-12-2009</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Orange Day Celebration</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">24-12-2009</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Christmas Celebration<br><br></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">January</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">13-01-2010</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Uttarayan Celebration</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">29-01-2010</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Recitation Copetition<br><br></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">February</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">2<sup>nd</sup> Week</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Annual Function<br><br></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">March</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">1<sup>st</sup> Week</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Picnic</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">31-03-2010</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">Pink Day Celebration</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+  </tr>
+</tbody></table></div>
+          <div class="event-data" id="holidayList">
+            <table width="97%" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC">
               <tbody><tr>
-                <td height="24" colspan="7" bgcolor="#66CCFF"><div align="center"><span class="subtitle">First Term Exams</span></div></td>
+                <td colspan="4" align="center" valign="top" class="subtitle" bgcolor="#66CCFF">LIST OF HOLIDAYS : 2010 - 2011</td>
+                </tr>
+               <tr>
+                <td align="left" valign="top" class="sub-catagories-bg">&nbsp;No.</td>
+                <td align="left" valign="top" class="sub-catagories-bg">&nbsp;Occasion</td>
+                <td align="left" valign="top" class="sub-catagories-bg">&nbsp;Date</td>
+                <td align="left" valign="top" class="sub-catagories-bg">&nbsp;Day</td>
               </tr>
               <tr>
-                <td width="16%" bgcolor="#E9E9E9" class="sub-catagories-bg"><div align="center">Standard Date</div></td>
-                <td width="10%" bgcolor="#E9E9E9" class="sub-catagories-bg"><div align="center">Day</div></td>
-                <td width="15%" bgcolor="#E9E9E9" class="sub-catagories-bg"><div align="center">VIII</div></td>
-                <td width="15%" bgcolor="#E9E9E9" class="sub-catagories-bg"><div align="center">IX</div></td>
-                <td width="15%" bgcolor="#E9E9E9" class="sub-catagories-bg"><div align="center">X</div></td>
-                <td width="15%" bgcolor="#E9E9E9" class="sub-catagories-bg"><div align="center">XI</div></td>
-                <td width="14%" bgcolor="#E9E9E9" class="sub-catagories-bg"><div align="center">XII</div></td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">1.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Independense Day</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">15-08-10</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Sunday</td>
               </tr>
               <tr>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">13/09/2010</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Monday</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Science</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Maths</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Social Science</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Economic</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Account</div></td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">2.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Rakshabandhan</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">24-08-10</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Tuesday</td>
               </tr>
               <tr>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">14/09/2010</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Tuesday</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Gujarati</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Hindi</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Gujarati</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">English-1</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">English</div></td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">3.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Janmashtami</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">02-09-10</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Thursday</td>
               </tr>
               <tr>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">15/09/2010</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Wednesday</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Maths</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">English-1</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Stats</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">4.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Ramzan Idd</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">10-09-10</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Friday</td>
               </tr>
               <tr>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">16/09/2010</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Thursday</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Hindi</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Gujarati</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Science</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Gujarati</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Economic</div></td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">5.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Samvatsari</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">11-09-10</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Saturday</td>
               </tr>
               <tr>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">17/09/2010</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Friday</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">English-1</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Science</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">6.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Gandhi Jayanti</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">02-10-10</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Saturday</td>
               </tr>
               <tr>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">18/09/2010</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Saturday</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Sunskrit</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">English-2</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">English</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">English-2</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Stact</div></td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">7.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Navratri </td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">&nbsp;</td>
               </tr>
               <tr>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">19/09/2010</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Sunday</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">8.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Christmas</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">25-12-10</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Saturday</td>
               </tr>
               <tr>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">20/09/2010</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Monday</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Account</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">BA</div></td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">9.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">New Year Day</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">01-01-11</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Saturday</td>
               </tr>
               <tr>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">21/09/2010</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Tuesday</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">English-2</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Social Science</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Maths</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">-</div></td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">10.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Uttarayan</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">14-01-11</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Friday</td>
               </tr>
               <tr>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">22/09/2010</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Wednesday</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Social Science</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Sunskrit</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Hindi/Sunskrit</div></td>
-               <td bgcolor="#FFFFFF" class="font12"><div align="center">BA</div></td>
-                <td bgcolor="#FFFFFF" class="font12"><div align="center">Gujarat</div></td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">11.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Vasi Uttarayan</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">15-01-11</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Saturday</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">12.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Republic Day</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">26-01-11</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Wednesday</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">13.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Mahs Shivratr</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">12-02-11</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Saturday</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">14.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Dhuleti</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">01-03-11</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Tuesday</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">15.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Ramnavami</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">24-03-11</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Thursday</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">16.</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Ambedkar Jayanti</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">14-04-11</td>
+                <td align="left" valign="top" bgcolor="#FFFFFF" class="font12">Thursday</td>
               </tr>
             </tbody></table>
-            <br>
-<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">  
-    <tbody><tr><td width="100%" height="36"><table width="30%" border="0" align="center" cellpadding="0" cellspacing="0">  
-  <tbody>
-</tbody></table>
-</td></tr>
-</tbody></table>
-<!-- InstanceEndEditable --></td>          
-</tr>
-</tbody></table>
-</div>
+          </div>
+    </div>
+  </div>
 </div>
 
 

@@ -1,0 +1,18 @@
+.event-section-links {
+    background: #ec696b;
+}
+
+.event-section-link-item {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.event-data {
+    display: none;
+}
+
+
+.event-section-link-item {
+    cursor: pointer;
+}
