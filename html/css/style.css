@@ -133,6 +133,21 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-def
     padding: 10px 0px;
 }
 
+/*==============================
+    About us Page
+===============================*/
+.about-card h5
+{
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: .82rem 0 .656rem 0;
+    box-shadow: inset 0px 0px 30px #949090;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100%;
+}
+
+
 /**============================
         Padding Property
 =============================*/
@@ -766,13 +781,16 @@ marquee {
  background: rgba(0,0,0,0.7);}
 
 .activity-card.card-panel {
-    margin: 25px;
+    margin:5px;
     background: #f5f5f5;
     position: relative;
     padding: 0px;
+    height: auto;
+    min-height: auto;
 }
 .btn-flat i {
     font-size: 2.3rem;
     color: #fff;}
 .btn-flat{padding: 0px !important}
+
 

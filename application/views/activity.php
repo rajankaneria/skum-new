@@ -15,29 +15,50 @@
         <div class="row">        
           <div class="col s6 m4">          	
             <div class="card-panel activity-card activity-modal-trigger" data-target="garba">
-            <div class="grey-overlay"></div>            
-            <div class="activity-title">Garba</div> 
             <div class="activity-img">
-              <img  src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0301.jpg"  / >
-              </div>                           
+            <!--<figure class="snip0016 activity-img">
+				<img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0301.jpg" alt="sample41"/>
+				<figcaption>
+					<h2><span>Garba</span></h2>
+				</figcaption>			
+			</figure>-->
+
+			<figure class="snip0028">
+				<img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0301.jpg" alt=""/>
+				<figcaption>
+					<h2>Garba</h2>	
+				</figcaption>			
+			</figure>
+            
+            </div>                           
             </div>
           </div>
-          <div class="col s6 m4">
+
+          <div class="col s6 m4">          	
             <div class="card-panel activity-card activity-modal-trigger" data-target="august_15">
-            <div class="grey-overlay"></div>
-             <div class="activity-title">15 August</div> 
-                <div class="activity-img">
-                <img  src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2223.jpg"  /></div>               
+            <div class="activity-img">
+	          	<figure class="snip0028">
+					<img src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2223.jpg" alt=""/>
+					<figcaption>
+						<h2>15 August</h2>	
+					</figcaption>			
+				</figure>
+	        </div>                           
             </div>
           </div>
-          <div class="col s6 m4">
+
+          <div class="col s6 m4">          	
             <div class="card-panel activity-card activity-modal-trigger" data-target="janmastami">
-            <div class="grey-overlay"></div>
-            <div class="activity-title">Janmastami</div>
             <div class="activity-img">
-                <img  src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_104834.jpg"  /></div>                         
-              </div>
-          </div>  
+	          	<figure class="snip0028">
+					<img src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_104834.jpg" alt=""/>
+					<figcaption>
+						<h2>Janmastami</h2>	
+					</figcaption>			
+				</figure>
+	        </div>                           
+            </div>
+          </div>
 
           <div id="garba" class="modal">
            <div class="modal-header">
@@ -112,32 +133,45 @@
   		  </div>
         </div>     
 
-        <div class="row">        
-          <div class="col s6 m4">          	
-            <div class="card-panel activity-card activity-modal-trigger" data-target="annual_function">
-            <div class="grey-overlay"></div>
-            <div class="activity-title">Annual Function</div> 
+        <div class="row">
+        <div class="col s6 m4">          	
+          <div class="card-panel activity-card activity-modal-trigger" data-target="annual_function">
             <div class="activity-img">
-               <img  src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2224.jpg"  />
-              </div>                           
-            </div>
+	          	<figure class="snip0028">
+					<img src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2224.jpg" alt=""/>
+					<figcaption>
+						<h2>Annual Function</h2>	
+					</figcaption>			
+				</figure>
+	        </div>                           
           </div>
-          <div class="col s6 m4">
-            <div class="card-panel activity-card activity-modal-trigger" data-target="picnic">
-            <div class="grey-overlay"></div>
-             <div class="activity-title">Picnic</div> 
-                <div class="activity-img">
-                <img  src="<?php echo base_url(); ?>html/images/activity/Picnic/20161223_114451.jpg"  /></div>               
-            </div>
-          </div>
-          <div class="col s6 m4">
-            <div class="card-panel activity-card activity-modal-trigger" data-target="isro" >
-            <div class="grey-overlay"></div>
-            <div class="activity-title">ISRO</div>
+        </div>
+
+        <div class="col s6 m4">          	
+          <div class="card-panel activity-card activity-modal-trigger" data-target="picnic">
             <div class="activity-img">
-                <img  src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1922.jpg" /></div>                         
-              </div>
-          </div>  
+	          	<figure class="snip0028">
+					<img src="<?php echo base_url(); ?>html/images/activity/Picnic/20161223_114451.jpg" alt=""/>
+					<figcaption>
+						<h2>Picnic</h2>	
+					</figcaption>			
+				</figure>
+	        </div>                           
+          </div>
+        </div>
+         
+        <div class="col s6 m4">          	
+          <div class="card-panel activity-card activity-modal-trigger" data-target="isro">
+            <div class="activity-img">
+	          	<figure class="snip0028">
+					<img src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1922.jpg" alt=""/>
+					<figcaption>
+						<h2>ISRO</h2>	
+					</figcaption>			
+				</figure>
+	        </div>                           
+          </div>
+        </div>
 
           <div id="annual_function" class="modal">
           <div class="modal-header">

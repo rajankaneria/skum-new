@@ -1,0 +1,27 @@
+.col.s12.m6.contact-form {
+    padding: 0px 30px;
+}
+
+.contact-details h5
+{
+	padding-bottom: 10px;
+}
+
+.department-contact h5
+{
+	padding-bottom: 10px;
+}
+
+.contact-phone span.fa.fa-mobile
+{
+	line-height: 2rem;
+	color: #666;
+}
+.department-contact a
+{
+	color: #666;
+}
+.department-contact a:hover
+{
+	color: #000 !important;
+}

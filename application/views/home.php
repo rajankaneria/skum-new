@@ -46,7 +46,7 @@
 
   <div class="service-title">School <span>Facilities</span></div>
   
-  <div id="facilitySlider" class="carousel center" data-indicators="true">  
+  <div id="facilitySlider" class="carousel center" data-indicators="true" style="height: 200px !important;">  
       <i id="facilitySliderLeft" class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
       <i id="facilitySliderRight" class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
 
@@ -54,28 +54,40 @@
     <div class="carousel-item" href="#one!"> 
       <div class="row container">
         <div class=" col s6 m3">
-            <div class="card-panel">
-              <div class="service-icon-container"><i class="fa fa-users" aria-hidden="true"></i></div>
-              <div class="service-title-text">Trained Faculties</div>
+            <div class="card-panel foo">
+              <div class="service-icon-container">
+                <img src="<?php echo base_url();?>html/images/Structured_Curriculum.png" width="100">
+                <img src="<?php echo base_url();?>html/images/Structured_Curriculum_pink.png" width="100">
+              </div>
+              <div class="service-title-text">Structured Curriculum</div>
             </div>
 
         </div>
         <div class="col s6 m3">
-          <div class="card-panel">
-            <div class="service-icon-container"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
-            <div class="service-title-text">Smart Classrooms</div>
+          <div class="card-panel foo">
+            <div class="service-icon-container">
+              <img src="<?php echo base_url();?>html/images/Faculties.png" width="100">
+              <img src="<?php echo base_url();?>html/images/Faculties_pink.png" width="100">
+            </div>
+            <div class="service-title-text">Trained Faculties</div>
             </div>
         </div>
         <div class="col s6 m3">
-          <div class="card-panel">
-            <div class="service-icon-container"><i class="fa fa-book" aria-hidden="true"></i></div>
-            <div class="service-title-text">Well-stocked Library</div>
+          <div class="card-panel foo">
+            <div class="service-icon-container">
+              <img src="<?php echo base_url();?>html/images/Smart_Classroom_Technology.png" width="100">
+              <img src="<?php echo base_url();?>html/images/Smart_Classroom_Technology_pink.png" width="100">
+            </div>
+            <div class="service-title-text">Smart Classroom</div>
             </div>
         </div>
         <div class=" col s6 m3">
-          <div class="card-panel">
-            <div class="service-icon-container"><i class="fa fa-futbol-o" aria-hidden="true"></i></div>
-            <div class="service-title-text">Sports Activity</div>
+          <div class="card-panel foo">
+            <div class="service-icon-container">
+              <img src="<?php echo base_url();?>html/images/Individual attention through counseling_new.png" width="100">
+              <img src="<?php echo base_url();?>html/images/Individual attention through counseling_new_pink.png" width="100">
+            </div>
+            <div class="service-title-text">Personal Counseling</div>
             </div>
         </div>
       </div>   
@@ -84,27 +96,80 @@
     <div class="carousel-item" href="#two!"> 
       <div class="row container">
         <div class=" col s6 m3">
-            <div class="card-panel">
-              <div class="service-icon-container"><i class="fa fa-users" aria-hidden="true"></i></div>
-              <div class="service-title-text">asd Faculties</div>
+            <div class="card-panel foo">
+              <div class="service-icon-container">
+                <img src="<?php echo base_url();?>html/images/Educational tours.png" width="100">
+                <img src="<?php echo base_url();?>html/images/Educational tours_pink.png" width="100">
+              </div>
+              <div class="service-title-text">Educational Tours</div>
             </div>
         </div>
         <div class="col s6 m3">
-          <div class="card-panel">
-            <div class="service-icon-container"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
-            <div class="service-title-text">asd Classrooms</div>
+          <div class="card-panel foo">
+            <div class="service-icon-container">
+              <img src="<?php echo base_url();?>html/images/Professional Courses.png" width="100">
+              <img src="<?php echo base_url();?>html/images/Professional Courses_pink.png" width="100">
+            </div>
+            <div class="service-title-text">Professional Courses</div>
             </div>
         </div>
         <div class="col s6 m3">
-          <div class="card-panel">
-            <div class="service-icon-container"><i class="fa fa-book" aria-hidden="true"></i></div>
-            <div class="service-title-text">asd-stocked Library</div>
+          <div class="card-panel foo">
+            <div class="service-icon-container">
+               <img src="<?php echo base_url();?>html/images/Well-stocked library.png" width="100">
+               <img src="<?php echo base_url();?>html/images/Well-stocked library_pink.png" width="100">
+            </div>
+            <div class="service-title-text">Well-stocked library</div>
             </div>
         </div>
+        <div class="col s6 m3">
+          <div class="card-panel foo">
+            <div class="service-icon-container">
+              <img src="<?php echo base_url();?>html/images/Medical check-up.png" width="100">
+              <img src="<?php echo base_url();?>html/images/Medical check-up_pink.png" width="100">
+            </div>
+            <div class="service-title-text">Medical Check-up</div>
+            </div>
+        </div>
+      </div>   
+    </div>
+
+    <div class="carousel-item" href="#three!"> 
+      <div class="row container">
         <div class=" col s6 m3">
-          <div class="card-panel">
-            <div class="service-icon-container"><i class="fa fa-futbol-o" aria-hidden="true"></i></div>
-            <div class="service-title-text">asd Activity</div>
+            <div class="card-panel foo">
+              <div class="service-icon-container">
+                <img src="<?php echo base_url();?>html/images/sport activities.png" width="100">
+                <img src="<?php echo base_url();?>html/images/sport activities_pink.png" width="100">
+              </div>
+              <div class="service-title-text">sport activities</div>
+            </div>
+        </div>
+        <div class="col s6 m3">
+          <div class="card-panel foo">
+            <div class="service-icon-container">
+              <img src="<?php echo base_url();?>html/images/Events and Celebrations.png" width="100">
+              <img src="<?php echo base_url();?>html/images/Events and Celebrations_pink.png" width="100">
+            </div>
+            <div class="service-title-text">Events and Celebrations</div>
+            </div>
+        </div>
+        <div class="col s6 m3">
+          <div class="card-panel foo">
+            <div class="service-icon-container">
+               <img src="<?php echo base_url();?>html/images/Hygiene and Security.png" width="100">
+               <img src="<?php echo base_url();?>html/images/Hygiene and Security_pink.png" width="100">
+            </div>
+            <div class="service-title-text">Hygiene and Security</div>
+            </div>
+        </div>
+        <div class="col s6 m3">
+          <div class="card-panel foo">
+            <div class="service-icon-container">
+               <img src="<?php echo base_url();?>html/images/Prime location in the heart of the city.png" width="100">
+               <img src="<?php echo base_url();?>html/images/Prime location in the heart of the city_pink.png" width="100">
+            </div>
+            <div class="service-title-text">Prime location</div>
             </div>
         </div>
       </div>   
@@ -116,7 +181,7 @@
 
 <div class="full-width-container testimonial-container ">
 <div class="testimonial-title">Parents <span>Testimonials</span></div>
-    <!----Slider------------------>
+    <!--Slider-->
     <div id="testimonialSlider" class="carousel center" data-indicators="true">  
        <div class="carousel-item" href="#one!">             
            <div class="row container">
