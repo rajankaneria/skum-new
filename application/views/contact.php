@@ -7,22 +7,22 @@
 	    <h5>Contact form</h5>
 	    <form class="form">
 	      <div class="row">
-	        <div class="input-field col m6">
+	        <div class="input-field col s12 m6">
 	          <input id="first_name" type="text" class="validate">
 	          <label for="First_name">First Name</label>
 	        </div>
 	      
-	        <div class="input-field col m6">
+	        <div class="input-field col s12 m6">
 	          <input id="last_name" type="text" class="validate">
 	          <label for="last_name">Last Name</label>
 	        </div>
 	      </div>	      
 	      <div class="row">
-	        <div class="input-field col m6">
+	        <div class="input-field col s12 m6">
 	          <input id="email" type="email" class="validate">
 	          <label for="email">Email</label>
 	        </div>
-	        <div class="input-field col m6">
+	        <div class="input-field col s12 m6">
 	          <input id="Mobile" type="text" class="validate">
 	          <label for="password">Mobile</label>
 	        </div>
@@ -33,16 +33,18 @@
 		          <label for="textarea1">Textarea</label>
 		        </div>
 		    </div>
-	        <div>
-	        	<input type="submit" name="send" value="Send" class="btn waves-effect waves-light">
+	        <div class="row">
+	        	<div class="col s12">
+	        	<input type="submit" name="send" value="Send" class="btn contact-btn waves-effect waves-light">
+	        	</div>
             </div>
 	    </form>
 	    </div>
-	    <div class="col s12 m6">
+	    <div class="col s12 m6 contact-area">
 			<div class="contact-details">
 				<center><img src="<?php echo base_url(); ?>html/images/logo.png" width="200"></center>
 				<div class="contact-phone row">
-					<h5>DIRECT CONTACT</h5>
+					<h5>Direct Contact</h5>
 					<div class="col s12 m4"><span class="fa fa-mobile" aria-hidden="true">&nbsp; +91 79268 54671 </span></div>
 					<div class="col s12 m4"><span class="fa fa-mobile" aria-hidden="true">&nbsp; +91 79268 54672 </span></div>
 					<div class="col s12 m4"><span class="fa fa-mobile" aria-hidden="true">&nbsp; +91 79268 54673 </span></div>
@@ -51,10 +53,10 @@
 				</div>
 			</div>
 				<div class="department-contact row">
-					<h5>DEPARTMENT CONTACT</h5>
-					<div class="col s12 m4"><a href="mailto:skumschools@gmail.com"><span class="fa fa-envelope" aria-hidden="true">&nbsp; skumschools@gmail.com</span></a></div>
+					<h5>Department Contact</h5>
+					<div class="col s12 m6"><a href="mailto:skumschools@gmail.com"><span class="fa fa-envelope" aria-hidden="true">&nbsp; skumschools@gmail.com</span></a></div>
 
-					<div class="col s12 m4"><a href="http://www.skumschools.org" target="_page"><span class="fa fa-globe" aria-hidden="true">&nbsp; www.skumschools.org</span></a></div>
+					<div class="col s12 m6"><a href="http://www.skumschools.org" target="_page"><span class="fa fa-globe" aria-hidden="true">&nbsp; www.skumschools.org</span></a></div>
 				</div>
 			</div>
 		</div>

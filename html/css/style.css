@@ -136,15 +136,32 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-def
 /*==============================
     About us Page
 ===============================*/
-.about-card h5
+
+.card-panel.row.about-card.content-area {
+    margin-top: -10px;
+}
+.about_area.about-section
+{
+    background: transparent !important;
+    width: 70%;
+    margin: auto;
+    padding: 10px 0px;
+}
+@media(max-width: 768px){
+    .about_area.about-section
+    {
+        width: 100% !important;
+    }
+}
+.about_area.about-section h5
 {
     font-size: 1.64rem;
     line-height: 110%;
     margin: .82rem 0 .656rem 0;
-    box-shadow: inset 0px 0px 30px #949090;
     padding: 10px;
-    border-radius: 50px;
     width: 100%;
+    background: rgb(236, 107, 109);
+    color: #fff
 }
 
 
@@ -396,13 +413,12 @@ ul#nav-mobile li a {
 
 nav.transparent-nav ul a:hover {
     color: #000;
-    background:linear-gradient(rgba(255,255,255,0.9),rgba(200,200,200,0.1)) !important;
+    background:linear-gradient(rgb(236, 107, 109),rgba(200,200,200,0)) !important;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-
 
 .dropdown-content li a {
     background: #dedede !important;
@@ -540,11 +556,16 @@ marquee p{
 .section-container.home-cards {
     min-height: 200px;
 }
+
+.full-width-container.service-container
+{
+    padding-bottom: 50px;
+}
 .full-width-container {
     margin-top: 50px;
     margin-bottom: 50px;
     padding-top: 0px;
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
 }
 
 .footer-background-image {
@@ -566,7 +587,6 @@ footer.page-footer{
 
 nav.nav-bar {
     background: transparent;
-    box-shadow: none;
 }
 
 nav.nav-bar ul a{
@@ -587,7 +607,7 @@ nav.opaque-grey ul a{
 
 }
 nav.opaque-grey{
-    background: rgba(0,0,0,0.7);
+    background: rgb(236, 105, 107);
 }
 nav{
     height: auto !important;
@@ -608,12 +628,18 @@ nav .brand-logo img{
 }
 
 nav ul a:hover{
-    background: transparent !important;
-    color:#ec696b !important;
+    background:rgba(0,0,0,0.1) !important;
+    /*color:#ec696b !important;*/
+    color: #fff !important;
+}
+.activeMenu
+{
+    background:rgba(0,0,0,0.1) !important;
+    color: #fff !important;
 }
 nav.transparent-nav ul a:hover{
-    background: transparent !important;
-    color:#ec696b !important;
+   /* background: transparent !important;*/
+    color:#fff !important;
 }
 
 
@@ -664,8 +690,24 @@ table,td,th{
 
 .pillar-card.card-panel {
     margin: 25px;
-    background: #f5f5f5;
+    background: #e0e0e0;
+    border: 2px solid #cecece;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+/*    background: #f5f5f5;*/
 
+}
+.pillar-card.card-panel:hover{
+    background: linear-gradient( rgba(47, 49, 147, 0.7),rgba(236, 107, 109, 0.7));
+    border: 2px solid #cecece;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+    color: #fff;
+/*    background: #f5f5f5;*/
 }
 
 
@@ -768,7 +810,7 @@ img.responsive-img.right.eklavya-img {
 marquee {
     height: 115px;
 }
-.about-card{background: #fdfafa !important;}
+
 .grey-overlay {
     background: rgba(0,0,0,.5);
     display: block;

@@ -42,7 +42,7 @@
       
   </div>
 </div>
-<div class="full-width-container z-depth-1 service-container ">
+<div class="services full-width-container z-depth-1 service-container ">
 
   <div class="service-title">School <span>Facilities</span></div>
   
