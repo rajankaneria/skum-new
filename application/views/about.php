@@ -3,11 +3,12 @@
 	<div class="section-title grey-text text-darken-4 section-sub-title"><p><span>About SKUM</span></p></div>
 </div>
 
-<div class="card-panel row row_bottom">
+<div class="card-panel row row_bottom" style="background: transparent;">
 
-	<div class="container about-section">
-	<div class="card-panel row about-card">
-		<center><h5>Philosophy</h5></center>
+	<div class="about-section about_area">
+	<center><h5>Philosophy</h5></center>
+	<div class="card-panel row about-card content-area">
+		
 			<div class="">
 			  <p class="flow-text" style="padding-top: 10px;">When learning stops dying starts. Educators,
 					parents & learners are learning silently in the
@@ -23,9 +24,9 @@
 	</div>
 
 	
-	<div class="container about-section">
-	<div class="card-panel row about-card">
-		<center><h5>The Vision</h5></center>
+	<div class="about-section about_area"><center><h5>The Vision</h5></center>
+	<div class="card-panel row about-card content-area">
+		
 			<div class="">
 			  <p class="flow-text" style="padding-top: 10px;">SKUM is like a rainbow, whichever angle you look at
 				it, there is a different advantage: the courage the
@@ -40,9 +41,9 @@
 	</div>
 
 	
-	<div class="container about-section">
-	<div class="card-panel row about-card">
-		<center><h5>The Mission</h5></center>
+	<div class="about-section about_area"><center><h5>The Mission</h5></center>
+	<div class="card-panel row about-card content-area">
+		
 			<div class="">
 			  <p class="flow-text" style="padding-top: 10px;">SKUM aims at providing school based education
 				from pre-primary to higher secondary levels at

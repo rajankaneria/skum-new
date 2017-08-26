@@ -1,0 +1,65 @@
+
+/*===== Contact Page Css ======*/
+.contact-area
+{
+	border-left: 1px solid #ddd;
+}
+@media(max-width: 768px){
+	.contact-area
+	{
+		border-left:none !important;
+	}
+	.contact-btn
+	{
+		width: 100% !important;
+	}
+	.contact-phone.row {
+    	width: 100% !important;
+	}
+	.department-contact.row {
+    	width: 100% !important;
+	}
+}
+.contact-phone.row {
+    width: 80%;
+}
+
+.col.s12.m6.contact-form {
+    padding: 0px 30px;
+}
+
+.contact-details h5
+{
+	padding-bottom: 10px;
+}
+
+.department-contact h5
+{
+	padding-bottom: 10px;
+}
+
+.contact-phone span.fa.fa-mobile
+{
+	line-height: 2rem;
+	color: #666;
+}
+
+.department-contact.row {
+    width: 80%;
+}
+.department-contact a
+{
+	color: #666;
+	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+	transition:all 0.2s ease-in-out;
+}
+.department-contact a:hover
+{
+	color: #000 !important;
+    -webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+	transition:all 0.2s ease-in-out;
+}

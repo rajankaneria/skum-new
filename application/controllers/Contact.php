@@ -8,7 +8,7 @@ class Contact extends CI_Controller {
 	{		
 		$headerData = array(
 			"pageTitle" => "Contact",
-			"stylesheet" => array("dashboard.css")
+			"stylesheet" => array("dashboard.css","contact.css")
 		);
 		$footerData = array(
 			"jsFiles" => array("dashboard.js")
