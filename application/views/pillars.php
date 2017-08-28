@@ -5,13 +5,19 @@
 <div class="full-width-container event-container row_bottom" style="background: #fff;    margin-top: 8px;"> 
 
   <div class="section-container">
-    <div class="col s12 m12">
-      <div class="card-panel pillar-card" style="max-width: 300px;margin: 0 auto;
-    margin-bottom: 85px;margin-top: 40px;">
-      <div class="pillars-img" style="margin-top: 15px;"><img src="<?php echo base_url(); ?>html/images/photos/Nitinbhai.jpg" /></div>
-      <div class="pillars-des">President</div>
-      <div class="pillars-name">Mr. Nitinbhai R. Patel</div>                   
-      </div>
+
+    <div class="col s12 m12">      
+        <div class="row">    
+          <div class="col m4" style="width: 38%;"></div>   
+          <div class="col s12 m3">
+              <div class="card-panel pillar-card"><div class="pillars-img">
+                <img src="<?php echo base_url(); ?>html/images/photos/Nitinbhai.jpg" /></div>
+                <div class="pillars-des">President</div>
+               <div class="pillars-name">Mr. Nitinbhai R. Patel</div> 
+              </div>
+          </div> 
+          <div class="col m4"></div>                                 
+        </div>            
     </div>
 
     <div class="col s12 m12">    

@@ -13,7 +13,7 @@
 <div class="section-container"></div>
 	 <div class="col s12 m12">    
         <div class="row">        
-          <div class="col s6 m4">          	
+          <div class="col s12 m4">          	
             <div class="card-panel activity-card activity-modal-trigger" data-target="garba">
             <div class="activity-img">
             <!--<figure class="snip0016 activity-img">
@@ -64,23 +64,29 @@
            <div class="modal-header">
       			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="fa fa-window-close-o" aria-hidden="true"></i></a>
     		</div>
-		    <div class="modal-content">
-			 <div class="slider">
-			    <ul class="slides">
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0002.jpg"> <!-- random image -->			       
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0022.jpg"> <!-- random image -->			      
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0010.jpg"> <!-- random image -->			        
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0222.jpg"> <!-- random image -->			        
-			      </li>
-			    </ul>
+		    <div class="modal-content" style="min-height: 300px;">
+
+		   	<div class="carousel carousel-slider center" data-indicators="true">
+			    <div class="carousel-item white-text" href="#one!">
+			    <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0002.jpg" class="responsive-img">
+			    </div>
+			    <div class="carousel-item white-text" href="#two!">
+			     <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0022.jpg" class="responsive-img">
+			    </div>
+			    <div class="carousel-item white-text" href="#three!">
+			      <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0010.jpg" class="responsive-img">
+			    </div>
+			    <div class="carousel-item white-text" href="#four!">
+			      <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0222.jpg" class="responsive-img"> 
+			    </div>
 			  </div>
+
+
+
+
+
+
+
 		    </div>  
   		  </div>  		
 
@@ -133,12 +139,12 @@
   		  </div>
         </div>     
 
-        <div class="row">
-        <div class="col s6 m4">          	
+        <div class="row event-panel">
+        <div class="col s12 m4">          	
           <div class="card-panel activity-card activity-modal-trigger" data-target="annual_function">
             <div class="activity-img">
 	          	<figure class="snip0028">
-					<img src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2224.jpg" alt=""/>
+					<img src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2309.jpg" alt=""/>
 					<figcaption>
 						<h2>Annual Function</h2>	
 					</figcaption>			

@@ -44,7 +44,7 @@
                 <div class="footer-text">Gujarat, INDIA.</div>
               </div>-->          
 
-          <div class="ftr-sitemap row" style="margin-bottom: 0px !important;">
+         <!-- <div class="ftr-sitemap row" style="margin-bottom: 0px !important;">
             <div class="container"><center>
               <a class="" href="#!">Achievements</a> &nbsp;|&nbsp;
               <a class="" href="#!">Feed Back</a> &nbsp;|&nbsp;
@@ -53,7 +53,7 @@
               </center>
             </div>
           </div>
-
+        -->
           <div class="footer-copyright #1a237e black darken-4">
             <div class="container">
               <span>© <a class="copyright-site-link" href="#!">SKUM School</a> 2017</span>

@@ -5,6 +5,11 @@
     min-height: 100vh;
     flex-direction: column;
   }
+
+.side-nav{
+    background: #ec696b;
+}
+
 .main-logo{
 
 }
@@ -66,7 +71,7 @@ nav.nav-bar ul a:hover {
 }
 
 nav .button-collapse{
-    color: #2f3293;
+    color: ghostwhite;
 }
 
 
@@ -81,14 +86,6 @@ nav .button-collapse{
 }
 .map{
      border:0;width: 100%;height: 100%;min-height: 500px;
-}
-@media(max-width: 768px){
-    .map{
-        min-height: 300px !important;
-    }
-    .card-panel{
-        min-height: 300px;
-    }   
 }
 
 /********************************
@@ -396,15 +393,18 @@ img.full-width {
     height: auto !important;
 }
 ul#nav-mobile {
-    z-index: 100;
+    /*z-index: 100;*/
+    z-index: -1;
+    top: 55px;
 }
 #sidenav-overlay{
     z-index: 99 !important;
 }
 
 ul#nav-mobile li a {
-    color: #2f3293;
-    border-bottom: 1px solid #dcdcdc;
+    color: #fff;
+    /*border-bottom: 1px solid #dcdcdc;*/
+     border-bottom: 1px solid rgba(204, 101, 102, 0.82);
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -603,7 +603,7 @@ nav.nav-bar ul a{
 }
 
 nav.opaque-grey ul a{
-    line-height: 8rem;
+   /* line-height: 8rem;*/
 
 }
 nav.opaque-grey{
@@ -613,7 +613,7 @@ nav{
     height: auto !important;
 }
 nav.opaque-grey ul a{
-    line-height: 6rem !important;
+    /*line-height: 6rem !important;*/
 }
 nav.opaque-grey .brand-logo img{
     width: 6rem;
@@ -782,18 +782,6 @@ img.responsive-img.right.eklavya-img {
 .slider .indicators .indicator-item.active {
     background-color: #ec696b;
 }
-
-
-/**=====================
-    Pillars Page
-=======================*/
-@media(max-width: 768px){
-    .pillar-card.card-panel
-    {
-        margin:10px 0px !important;
-    }
-}
-   
 
 /**********************
     Footer

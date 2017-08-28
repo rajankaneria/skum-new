@@ -1,10 +1,10 @@
 <div class="nav-top"></div>
 <div class="">
-<div class="card-panel row"><div class="section-title grey-text text-darken-4 flow-text"><p><strong>Stay Conected</strong></p></div>
+<div class="section-title grey-text text-darken-4 flow-text"><p><strong>Contact Us</strong></p></div>
+<div class="card-panel row">
 	<div class="row about-section">
 	 <div class="row">
 	   <div class="col s12 m6 contact-form">
-	    <h5>Contact form</h5>
 	    <form class="form">
 	      <div class="row">
 	        <div class="input-field col s12 m6">
@@ -42,13 +42,13 @@
 	    </div>
 	    <div class="col s12 m6 contact-area">
 			<div class="contact-details">
-				<center><img src="<?php echo base_url(); ?>html/images/logo.png" width="200"></center>
+				<center><img src="<?php echo base_url(); ?>html/images/logo.png" width="200" class="hide-on-med-and-down"></center>
 				<div class="contact-phone row">
 					<h5>Direct Contact</h5>
-					<div class="col s12 m4"><span class="fa fa-mobile" aria-hidden="true">&nbsp; +91 79268 54671 </span></div>
-					<div class="col s12 m4"><span class="fa fa-mobile" aria-hidden="true">&nbsp; +91 79268 54672 </span></div>
-					<div class="col s12 m4"><span class="fa fa-mobile" aria-hidden="true">&nbsp; +91 79268 54673 </span></div>
-					<div class="col s12 m4"><span class="fa fa-mobile" aria-hidden="true">&nbsp; +91 79268 54674 </span></div>
+					<div class="col s6 m4"><span class="fa fa-mobile" aria-hidden="true">&nbsp; +91 79268 54671 </span></div>
+					<div class="col s6 m4"><span class="fa fa-mobile" aria-hidden="true">&nbsp; +91 79268 54672 </span></div>
+					<div class="col s6 m4"><span class="fa fa-mobile" aria-hidden="true">&nbsp; +91 79268 54673 </span></div>
+					<div class="col s6 m4"><span class="fa fa-mobile" aria-hidden="true">&nbsp; +91 79268 54674 </span></div>
 					<div class="col s12 m4"><span class="fa fa-mobile" aria-hidden="true">&nbsp; +91 79268 54675 </span></div>
 				</div>
 			</div>

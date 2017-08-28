@@ -13,6 +13,7 @@ $(function(){
         indicators: true,
         duration: 200
     });
+    $("#testimonialSlider").css("height","300");
 
 
     $("#facilitySliderLeft").on("click",function(){

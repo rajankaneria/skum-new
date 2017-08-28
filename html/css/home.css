@@ -34,9 +34,9 @@
 }
 
 .about-school-section {
-    padding: 80px !important;
-    padding-right: 10px !important;
-    padding-top: 50px !important;
+    padding: 80px;
+    padding-right: 10px;
+    padding-top: 50px;
 }
 
 .about-school-title {
@@ -121,9 +121,9 @@
     padding: 10px;
 }
 .event-title-text {
-       text-align: left;
+    text-align: left;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
@@ -146,6 +146,7 @@
     margin-top: 20px;
     color: #696969;
     font-size: 13px;
+    text-align: justify;
 }
 
 /*====================================
@@ -244,7 +245,8 @@ div#facilitySlider
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
+    margin-top: -50px;
 }
 
 .testimonial-title span {
@@ -278,7 +280,7 @@ div#facilitySlider
 
 .testimonial-container {
     padding-bottom: 0px;
-    margin-bottom: 0px;
+    margin-bottom: -30px;
 }
 
 .event-container {
@@ -286,7 +288,7 @@ div#facilitySlider
 }
 
 .about-image {
-    margin-top: 110px;
+    margin-top: 60px;
 }
 
 .about-image img {
@@ -323,6 +325,7 @@ i#facilitySliderLeft {
 }
 
 #testimonialSlider{
-    height: 300px !important;
+  height: 600px;
+/*height: -webkit-fill-available;*/
 }
 

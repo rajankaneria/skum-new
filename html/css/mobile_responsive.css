@@ -1,0 +1,236 @@
+
+@media( max-width: 768px){
+	body
+	{
+		background: red !important;
+	}
+
+/*====================== NAVIGATION MAIN LOGO ====================*/
+
+	nav .brand-logo img {
+		width: 5rem;
+		margin-top: 0px;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+    }	
+
+    nav.transparent-nav ul a{
+    	line-height: inherit;
+    }
+/*====================== SLIDER AREA ====================*/
+
+	.slider-content{
+		margin: 0 auto !important;
+		bottom: 250px !important;
+	}
+
+	.slider-title{
+		font-size: 18px !important;
+	}
+	.slider-description{
+		font-size: 12px !important;
+	}
+
+	.indicators{
+		display: none !important;
+	}
+
+
+/*====================== Full Content AREA ====================*/
+	
+	/*======= Home Page =======*/
+
+	.full-width-container {
+     margin-top: 0px !important;
+    padding-top: 0px;
+    padding-bottom: 0px !important;
+	}
+
+	.about-image {
+    	margin-top: 25px !important;
+	}
+	.about-school-section{
+		padding: 0px !important;
+		margin-top: 25px !important;
+	}	
+
+	.about-school-title{
+		font-size: 24px !important;
+		text-align: center;
+	}
+
+	.service-title{
+		font-size: 24px !important;
+		margin-top: 25px !important; 
+		margin-bottom: 25px !important; 
+	}
+	.carousel-item.card-panel{
+		padding: 0px !important;
+	}
+
+	.testimonial-title{
+		font-size: 24px !important;
+		margin: 0 auto !important;
+		margin-top: -25px !important;
+    	margin-bottom: -15px !important;
+	}
+	.testimonial-text{
+		text-align: justify !important;
+	}
+
+	#testimonialSlider {
+    	height: -webkit-fill-available !important;
+	}
+	/*============== services SLIDER arrow====================*/
+
+	i#facilitySliderLeft{
+		left: 10px !important;
+		display: none;
+	}
+	i#facilitySliderRight{
+		right: 10px !important;
+		display: none;
+	}
+
+	/**=============  Upcomming Events ================*/
+
+	.event-image{
+		width: 100% !important; 
+		height: auto !important;
+	}
+	.event-image img{
+		width: 100%;
+		height:auto !important;
+	}
+	.event-description{
+		width: 100% !important
+	}
+
+
+/*==================   About page Responsive  =========================*/
+
+	.section-title{
+		margin-top: -30px !important;
+		margin-bottom: -15px !important;
+	}
+	.about_area.about-section{
+		padding: 0px !important;
+	}
+
+
+/*==================   Institute page Responsive  =========================*/
+
+.section-sub-title{
+	font-size: 24px !important;
+	margin-top: -25px !important;
+}
+
+.about-school-content{
+	text-align: justify;
+}
+
+/*==================   Institute page Responsive  =========================*/
+
+.activity-card.card-panel
+{
+	margin: 15px -5px !important;
+}
+
+/*==================   Activity page Responsive  =========================*/
+
+
+figure.snip0028:hover figcaption h2, figure.snip0028 figcaption h2
+{
+	right: 0px;
+    opacity: 1;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+figure.snip0028 h2{
+	text-align: center;
+    margin: 0 auto !important;
+    border-radius: 0px !important;
+    padding: 10px 20px !important;
+    position: absolute;
+    font-size: 1em;
+    bottom: 0% !important;
+    right: 100%;
+    width: 100%;
+    word-spacing: -0.1em;
+    font-weight: 300;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-color: rgb(236, 105, 107);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    color: ghostwhite;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 1px #000;
+}
+
+.modal{
+	width: 90% !important;
+	top: 150px !important;
+}
+.slider .slides li img{
+	/* height: auto; */
+    width: 100% !important;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slider .slides{
+    background-color: rgba(8, 8, 8, 0.55) !important;
+}
+.modal {
+overflow-y: hidden !important;
+    max-height: 100% !important;
+    /* border: 3px solid #696969; */
+    border-radius: 3px;
+    background: no-repeat;
+    box-shadow: none !important;
+}
+/*==================   Pillars page Responsive  =========================*/
+
+
+.pillar-card.card-panel {
+    margin: 10px 0px !important;
+    padding: 10px 0px !important;
+    min-height: 305px;
+
+}
+.row .col.s6.card-panel.pillar-card {
+    min-height: 330px !important;
+}
+
+ .map{
+        min-height: 300px !important;
+    }
+    .card-panel{
+        min-height: 275px;
+    }   
+/*==================   Contact page Responsive  =========================*/
+
+.col.s12.m6.contact-form{
+	padding: 0px !important;
+}
+
+}
+
+
+
+@media only screen and (max-width: 1200px) and (min-width: 768px){
+	.col.s12.m6.contact-form{
+		width: 100% !important;
+	}
+	.col.s12.m6.contact-area{
+		width: 100% !important;
+	}
+}
