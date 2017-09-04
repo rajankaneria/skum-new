@@ -12,7 +12,7 @@ class Activity  extends CI_Controller {
 			"stylesheet" => array("dashboard.css","activity.css")
 		);
 		$footerData = array(
-			"jsFiles" => array("dashboard.js","activity.js")
+			"jsFiles" => array("activity.js")
 		);
 		$viewData = array(
 			"viewName" => "activity",

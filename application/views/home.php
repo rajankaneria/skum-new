@@ -221,7 +221,7 @@
         <div class="carousel-item" href="#four!">             
            <div class="row container">
              <div class=" col s12 m12">
-                <div class="card-panel" style="padding: 0 !important">
+                <div class="card-panel">
                   <div class="testimonial-text">"Greetings to SKUM School….!!! I Nikunj Patel, Father of Misri Patel writing as I just feel the need to acknowledge the support from the SKUM school. My child Misri Patel continues to be very smart recently. At home, I can even hear her singing alphabet song and reciting a nice short-poem. Thank you so much teachers for all your efforts and dedication in teaching your preprimary pupils including mu daughter.
                   Misri is stdying in SKUM since nursery. To all the teachers in nursery level; this message is to simply thank you for all the kindness and support for my daughter Misri Patel during her three years of stay in your school. I have been seeing so much improvement on my child’s knowledge and personality. Misri has built up more confidence due to extracurricular activities done by school. I have witnessed your dedication and love in teaching your preprimary students and I am so blessed that my child is in your school. It feels so good to know that my daughter is studying in SKUM. 
                   Many thanks to SKUM School, Principal Sir( Shri Antony Sir) and all preprimary teachers.
@@ -281,7 +281,7 @@
       <div class="card-panel">
         <div class="event-image"><div class="event-date"><div class="event-day">15</div><div class="event-month">AUG</div></div><img src="<?php echo base_url(); ?>html/images/indipendenceday.png" /></div>
         <div class="event-description">
-            <div class="event-title-text" style="font-size: 20px;">Independence Day</div>
+            <div class="event-title-text">Independence Day</div>
             <div class="event-location"><i class="material-icons">location_on</i> SKUM school</div>
             <div class="event-time"><i class="material-icons">access_time</i> 10:30 am To 8:00 pm</div>
             <div class="event-content">Independence Day is observed as a national holiday in India commemorating the nation's independence from the United Kingdom on 15 August 1947.</div>

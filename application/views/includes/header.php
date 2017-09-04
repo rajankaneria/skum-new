@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
 
     <link href="<?php echo base_url(); ?>html/css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>html/css/mobile_responsive.css" rel="stylesheet">
+
     <link href="http://fonts.googleapis.com/css?family=Inconsolata|Raleway" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>

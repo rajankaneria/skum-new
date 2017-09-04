@@ -36,7 +36,7 @@
 <div class="full-width-container about-school-container">  
   <div class="section-container">
       <div class="row">
-      <div class="col s12 m6 about-image">
+      <div class="col s12 m6 about-image hide-on-small-only">
           <img class="responsive-img" src="<?php echo base_url(); ?>html/images/school_building.jpg">
         </div>
         <div class="about-school-section col s12 m6">
@@ -53,10 +53,11 @@
             excellence along with a communicative approach to language teaching. Emphasis is
             laid on Education, Evaluation, Environment and Positive Emotions blended with
             technology.</p>
-          
-          </div>
+          </div>hide-on-med-and-down
         </div>
-        
+        <div class="col s12 m6 about-image hide-on-med-and-up">
+          <img class="responsive-img" src="<?php echo base_url(); ?>html/images/school_building.jpg">
+        </div>
       </div>
       
   </div>
@@ -90,7 +91,7 @@
 <div class="full-width-container about-school-container">  
   <div class="section-container">
       <div class="row">
-      <div class="col s12 m6 about-image">
+      <div class="col s12 m6 about-image  hide-on-small-only">
           <img class="responsive-img" src="<?php echo base_url(); ?>html/images/nursing.jpg">
         </div>
         <div class="about-school-section col s12 m6">
@@ -104,10 +105,13 @@
             graduates are capable of supervising & teaching of Nursing Health care activities in
             different setting and to participate in first level education and administration of Nursing
             services, with this object the Nursing collage is working.</p>
-          
           </div>
         </div>
         
+        <div class="col s12 m6 about-image">
+          <img class="responsive-img hide-on-med-and-up" src="<?php echo base_url(); ?>html/images/nursing.jpg">
+        </div>
+
       </div>
       
   </div>

@@ -1,5 +1,5 @@
 $(function(){
-	$('.slider').slider();
+	 $('.carousel.carousel-slider').carousel({fullWidth: true});
 	$('.modal').modal();
 	$(".activity-modal-trigger").on("click",function(){
 		var target = $(this).data("target");
