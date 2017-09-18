@@ -1,13 +1,11 @@
 
-<div class="carousel carousel-slider center z-depth-1" data-indicators="true">
-    <div class="carousel-item" href="#one!">
-      <div class="grey-overlay"></div>
-      
-      <div class="slider-content">
+<div id="mainSlider" class="carousel carousel-slider center z-depth-1" data-indicators="true">
+    <div class="slider-content">
         <div class="slider-title">Welcome To SKUM</div>
         <div class="slider-description container">SKUM offers complete and well balanced education to children from the Pre-Primary to the Higher Secondary.</div>
-      </div>
-      
+    </div>
+    <div class="carousel-item" href="#one!">
+      <div class="grey-overlay"></div>
       <img src="<?php echo base_url(); ?>html/images/slide-1.jpg" />
     </div>
     <div class="carousel-item" href="#two!">
@@ -17,6 +15,20 @@
     <div class="carousel-item" href="#3!">
       <div class="grey-overlay"></div>
       <img src="<?php echo base_url(); ?>html/images/slide-3.jpg" />
+    </div>
+
+    <div class="inquiry-section">
+      <div class="section-trigger" onclick="toggleEnquiry();"><i class="material-icons">dehaze</i></div>
+      <div class="section-title">Enquiry</div>
+      <div class="enquiry-form">
+        <div class="row">
+          <div class="inquiry-col"><input class="input-text" type="text" placeholder="Fullname" /></div>
+          <div class="inquiry-col"><input class="input-text" type="text" placeholder="Email ID" /></div>
+          <div class="inquiry-col"><input class="input-text" type="text" placeholder="Class" /></div>
+          <div class="inquiry-col"><input class="input-text" type="text" placeholder="Subject" /></div>
+          <div class="inquiry-col submit"><a class="waves-effect waves-light btn">Send</a></div>
+        </div>
+      </div>
     </div>
 </div>
 

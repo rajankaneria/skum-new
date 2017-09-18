@@ -57,8 +57,8 @@
           <div class="footer-copyright #1a237e black darken-4">
             <div class="container">
               <span>© <a class="copyright-site-link" href="#!">SKUM School</a> 2017</span>
-              <a class="footer-link-right right" href="#!">Privacy Policy</a>
-              <a class="footer-link-right right" href="#!">Terms of Use</a>
+              <!--<a class="footer-link-right right" href="#!">Privacy Policy</a>
+              <a class="footer-link-right right" href="#!">Terms of Use</a> -->
             </div>
           </div>
         </footer>

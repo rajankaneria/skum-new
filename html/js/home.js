@@ -2,7 +2,11 @@ $(function(){
     //on page load
     scrollCheck();
 
-
+    $('#mainSlider').carousel({
+        fullWidth: true,
+        indicators: false,
+        duration: 200
+    });
     $('#facilitySlider').carousel({
         fullWidth: true,
         indicators: true,
@@ -25,7 +29,7 @@ $(function(){
     });
     
     setInterval(function(){
-        $('.carousel.carousel-slider').carousel('next');
+        $('#mainSlider').carousel('next');
     }, 5000);
 
 
@@ -52,5 +56,18 @@ function scrollCheck(){
     {
         $(".nav-bar").removeClass("opaque-grey");
         $(".nav-bar").addClass("transparent-nav");
+    }
+}
+
+function toggleEnquiry(){
+    var position = $(".inquiry-section").css("bottom");
+    if(position == "-135px"){
+        $(".inquiry-section").animate({
+            "bottom" : "0"
+        },300);
+    }else{
+        $(".inquiry-section").animate({
+            "bottom" : "-135"
+        },300);
     }
 }

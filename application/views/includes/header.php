@@ -48,22 +48,22 @@
       <ul class="desktop-nav-link right hide-on-med-and-down">
         <li><a href="home" class="<?php if($this->uri->segment(1)=="home") { ?> activeMenu <?php } ?>">Home</a></li>
         <li><a href="about" class="<?php if($this->uri->segment(1)=="about") { ?> activeMenu <?php } ?>">About</a></li>
-        <li><a href="Pillars" class="<?php if($this->uri->segment(1)=="Pillars") { ?> activeMenu <?php } ?>">Pillars</a></li>
-        <li><a href="Institute" class="<?php if($this->uri->segment(1)=="Institute") { ?> activeMenu <?php } ?>">Institute</a></li>
-        <li><a href="Activity" class="<?php if($this->uri->segment(1)=="Activity") { ?> activeMenu <?php } ?>">Activity</a></li>
-        <li><a href="Event" class="<?php if($this->uri->segment(1)=="Event") { ?> activeMenu <?php } ?>">Event</a></li>
-        <li><a href="<?php echo base_url();?>Mission_Eklavya" class="<?php if($this->uri->segment(1)=="Mission_Eklavya") { ?> activeMenu <?php } ?>">Mission Eklavya</a></li>
+        <li><a href="pillars" class="<?php if($this->uri->segment(1)=="pillars") { ?> activeMenu <?php } ?>">Pillars</a></li>
+        <li><a href="institute" class="<?php if($this->uri->segment(1)=="institute") { ?> activeMenu <?php } ?>">Institute</a></li>
+        <li><a href="activity" class="<?php if($this->uri->segment(1)=="activity") { ?> activeMenu <?php } ?>">Activity</a></li>
+        <!--<li><a href="Event" class="<?php if($this->uri->segment(1)=="event") { ?> activeMenu <?php } ?>">Event</a></li>-->
+        <li><a href="<?php echo base_url();?>mission_eklavya" class="<?php if($this->uri->segment(1)=="mission_eklavya") { ?> activeMenu <?php } ?>">Mission Eklavya</a></li>
         <li><a href="contact" class="<?php if($this->uri->segment(1)=="contact") { ?> activeMenu <?php } ?>">Contact us</a></li>
       </ul>
         
       <ul id="nav-mobile" class="side-nav">
         <li><a href="home" class="<?php if($this->uri->segment(1)=="home") { ?> activeMenu <?php } ?>">Home</a></li>
         <li><a href="about" class="<?php if($this->uri->segment(1)=="about") { ?> activeMenu <?php } ?>">About</a></li>
-        <li><a href="Pillars" class="<?php if($this->uri->segment(1)=="Pillars") { ?> activeMenu <?php } ?>">Pillars</a></li>
-        <li><a href="Institute" class="<?php if($this->uri->segment(1)=="Institute") { ?> activeMenu <?php } ?>">Institute</a></li>
-        <li><a href="Activity" class="<?php if($this->uri->segment(1)=="Activity") { ?> activeMenu <?php } ?>">Activity</a></li>
-        <li><a href="Event" class="<?php if($this->uri->segment(1)=="Event") { ?> activeMenu <?php } ?>">Event</a></li>
-        <li><a href="<?php echo base_url();?>Mission_Eklavya" class="<?php if($this->uri->segment(1)=="Mission_Eklavya") { ?> activeMenu <?php } ?>">Mission Eklavya</a></li>
+        <li><a href="pillars" class="<?php if($this->uri->segment(1)=="pillars") { ?> activeMenu <?php } ?>">Pillars</a></li>
+        <li><a href="institute" class="<?php if($this->uri->segment(1)=="institute") { ?> activeMenu <?php } ?>">Institute</a></li>
+        <li><a href="activity" class="<?php if($this->uri->segment(1)=="activity") { ?> activeMenu <?php } ?>">Activity</a></li>
+        <!--<li><a href="Event" class="<?php if($this->uri->segment(1)=="event") { ?> activeMenu <?php } ?>">Event</a></li> -->
+        <li><a href="<?php echo base_url();?>mission_eklavya" class="<?php if($this->uri->segment(1)=="mission_eklavya") { ?> activeMenu <?php } ?>">Mission Eklavya</a></li>
         <li><a href="contact" class="<?php if($this->uri->segment(1)=="contact") { ?> activeMenu <?php } ?>">Contact us</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>

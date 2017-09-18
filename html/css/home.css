@@ -329,3 +329,70 @@ i#facilitySliderLeft {
 /*height: -webkit-fill-available;*/
 }
 
+#mainSlider .indicators{
+    display: none;
+}
+
+.inquiry-section {
+    position: absolute;
+    left: 0;
+    bottom: -135px;
+    width: 100%;
+    background: #ec696b;
+}
+
+.section-trigger {
+    color: #fff;
+    padding-top: 9px;
+    cursor: pointer;
+}
+
+.inquiry-section .section-title {
+    color: #fff !important;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.enquiry-form .input-text {
+    border: 1px solid #fff !important;
+    padding: 2px 10px !important;
+    color: #fff;
+    width: calc(100% - 20px) !important;
+}
+
+.input-text::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #e49798;
+}
+.input-text:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #e49798;
+   opacity:  1;
+}
+.input-text::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #e49798;
+   opacity:  1;
+}
+.input-text:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #e49798;
+}
+.input-text::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #e49798;
+}
+
+.inquiry-col {
+    float: left;
+    width: calc(22% - 10px);
+    margin: 0px 5px;
+}
+
+.inquiry-col.submit {
+    width: calc(12% - 10px) !important;
+}
+
+
+.inquiry-col.submit a {
+    background: #fff !important;
+    width: 100%;
+    color: #ec696b;
+    height: 50px;
+    line-height: 50px;
+}

@@ -149,8 +149,31 @@ figure.snip0028.hover a:nth-child(3) i {
 }
 
 
-.model
+.modal
 {
     width: 70% !important;
-    height: 500px !important;
+    height: 90% !important;
+    top:5% !important;
+}
+.modal-content{
+  position: relative !important;
+}
+.modal .indicators{
+  top:0 !important;
+}
+.activity-img{
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.modal-header a.modal-action {
+    background: rgba(0, 0, 0,0.5);
+    padding: 10px !important;
+    line-height: 20px;
+    padding-top: 4px !important;
+}
+
+.modal-header a.modal-action i {
+    font-size: 20px;
+    line-height: 20px !important;
 }

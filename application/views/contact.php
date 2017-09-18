@@ -30,7 +30,7 @@
 	        <div class="row">
 		        <div class="input-field col s12">
 		          <textarea id="textarea1" class="materialize-textarea"></textarea>
-		          <label for="textarea1">Textarea</label>
+		          <label for="textarea1">Message</label>
 		        </div>
 		    </div>
 	        <div class="row">
@@ -56,7 +56,7 @@
 					<h5>Department Contact</h5>
 					<div class="col s12 m6"><a href="mailto:skumschools@gmail.com"><span class="fa fa-envelope" aria-hidden="true">&nbsp; skumschools@gmail.com</span></a></div>
 
-					<div class="col s12 m6"><a href="http://www.skumschools.org" target="_page"><span class="fa fa-globe" aria-hidden="true">&nbsp; www.skumschools.org</span></a></div>
+					<div class="col s12 m6"><a href="http://www.skumschool.com/" target="_page"><span class="fa fa-globe" aria-hidden="true">&nbsp; www.skumschool.com</span></a></div>
 				</div>
 			</div>
 		</div>

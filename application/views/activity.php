@@ -66,20 +66,20 @@
     		</div>
 		    <div class="modal-content" style="min-height: 300px;">
 
-		   	<div class="carousel carousel-slider center" data-indicators="true">
-			    <div class="carousel-item white-text" href="#one!">
-			    <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0002.jpg" class="responsive-img">
-			    </div>
-			    <div class="carousel-item white-text" href="#two!">
-			     <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0022.jpg" class="responsive-img">
-			    </div>
-			    <div class="carousel-item white-text" href="#three!">
-			      <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0010.jpg" class="responsive-img">
-			    </div>
-			    <div class="carousel-item white-text" href="#four!">
-			      <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0222.jpg" class="responsive-img"> 
-			    </div>
-			  </div>
+			   	<div class="carousel carousel-slider center" data-indicators="true">
+				    <div class="carousel-item white-text" href="#one!">
+				    <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0002.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#two!">
+				     <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0022.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#three!">
+				      <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0010.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#four!">
+				      <img src="<?php echo base_url(); ?>html/images/activity/Garba/DSC_0222.jpg" class="responsive-img"> 
+				    </div>
+				</div>
 
 
 
@@ -91,50 +91,52 @@
   		  </div>  		
 
   		  <div id="august_15" class="modal">
-  		  <div class="modal-header">
+  		  	<div class="modal-header">
       			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="fa fa-window-close-o" aria-hidden="true"></i></a>
     		</div>
 		    <div class="modal-content">
-		       <div class="slider">
-			    <ul class="slides">
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2269.jpg""> <!-- random image -->			       
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2281.jpg""> <!-- random image -->			        
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2251.jpg""> <!-- random image -->			        
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2235.jpg""> <!-- random image -->			       
-			      </li>
-			    </ul>
-			  </div>
+		    	<div class="carousel carousel-slider center" data-indicators="true">
+				    <div class="carousel-item white-text" href="#one!">
+				    <img src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2269.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#two!">
+				     <img src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2281.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#three!">
+				      <img src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2251.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#four!">
+				      <img src="<?php echo base_url(); ?>html/images/activity/15 August/IMG_2235.jpg" class="responsive-img"> 
+				    </div>
+			    </div>
 		    </div>		    
   		  </div>
 
-  		    <div id="janmastami" class="modal">
+  		<div id="janmastami" class="modal">
   		    <div class="modal-header">
       			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="fa fa-window-close-o" aria-hidden="true"></i></a>
     		</div>
 		    <div class="modal-content">
-		       <div class="slider">
-			    <ul class="slides">
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_105245.jpg"> <!-- random image -->			       
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_110234.jpg"> <!-- random image -->			      
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_104923.jpg"> <!-- random image -->			        
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_110438.jpg"> <!-- random image -->			        
-			      </li>
-			    </ul>
-			  </div>
+
+
+
+
+				<div class="carousel carousel-slider center" data-indicators="true">
+				    <div class="carousel-item white-text" href="#one!">
+				    <img src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_105245.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#two!">
+				     <img src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_110234.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#three!">
+				      <img src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_104923.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#four!">
+				      <img src="<?php echo base_url(); ?>html/images/activity/Janmasthami/20160824_110438.jpg" class="responsive-img"> 
+				    </div>
+			    </div>
+
+
 		    </div>
   		  </div>
         </div>     
@@ -184,22 +186,24 @@
       			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="fa fa-window-close-o" aria-hidden="true"></i></a>
     		</div>    	
 		    <div class="modal-content">
-			 <div class="slider">
-			   <ul class="slides">
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2617.jpg""> <!-- random image -->			       
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2247.jpg""> <!-- random image -->			        
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2348.jpg""> <!-- random image -->			        
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2663.jpg""> <!-- random image -->			       
-			      </li>
-			    </ul>
-			  </div>
+
+
+
+				<div class="carousel carousel-slider center" data-indicators="true">
+				    <div class="carousel-item white-text" href="#one!">
+				    <img src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2617.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#two!">
+				     <img src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2247.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#three!">
+				      <img src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2348.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#four!">
+				      <img src="<?php echo base_url(); ?>html/images/activity/Annual_Function/IMG_2663.jpg" class="responsive-img"> 
+				    </div>
+			    </div>
+
 		    </div>  
 
   		  </div>
@@ -209,22 +213,24 @@
       			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="fa fa-window-close-o" aria-hidden="true"></i></a>
     		</div>
 		    <div class="modal-content">
-		       <div class="slider">
-			    <ul class="slides">
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Picnic/20161208_111725.jpg""> <!-- random image -->			       
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Picnic/20161223_114640.jpg""> <!-- random image -->			        
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Picnic/20161208_111856.jpg""> <!-- random image -->			        
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/Picnic/20161208_111727.jpg""> <!-- random image -->			       
-			      </li>
-			    </ul>
-			  </div>
+
+
+				<div class="carousel carousel-slider center" data-indicators="true">
+				    <div class="carousel-item white-text" href="#one!">
+				    <img src="<?php echo base_url(); ?>html/images/activity/Picnic/20161208_111725.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#two!">
+				     <img src="<?php echo base_url(); ?>html/images/activity/Picnic/20161223_114640.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#three!">
+				      <img src="<?php echo base_url(); ?>html/images/activity/Picnic/20161208_111856.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#four!">
+				      <img src="<?php echo base_url(); ?>html/images/activity/Picnic/20161208_111727.jpg" class="responsive-img"> 
+				    </div>
+			    </div>
+
+
 		    </div>
 
   		  </div>
@@ -234,22 +240,21 @@
       			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="fa fa-window-close-o" aria-hidden="true"></i></a>
     		</div>	  
 		    <div class="modal-content">
-		       <div class="slider">
-			    <ul class="slides">
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1909.jpg""> <!-- random image -->			       
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1913.jpg""> <!-- random image -->			        
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1922.jpg""> <!-- random image -->			        
-			      </li>
-			      <li>
-			        <img src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1914.jpg""> <!-- random image -->			       
-			      </li>
-			    </ul>
-			  </div>
+
+				<div class="carousel carousel-slider center" data-indicators="true">
+				    <div class="carousel-item white-text" href="#one!">
+				    <img src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1909.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#two!">
+				     <img src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1913.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#three!">
+				      <img src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1922.jpg" class="responsive-img">
+				    </div>
+				    <div class="carousel-item white-text" href="#four!">
+				      <img src="<?php echo base_url(); ?>html/images/activity/ISRO/IMG_1914.jpg" class="responsive-img"> 
+				    </div>
+			    </div>
 		    </div>		    
   		  </div>  		  
         </div>
