@@ -11,11 +11,16 @@ class User_model extends CI_Model{
     }
 
     function login($uname,$pass){
-        $query = $this->db->query("select * from login where uname='$uname' and pass='$pass'");
+        $query = $this->db->query("
+            select r.name from login l
+            join role r on l.role_id = r.id
+            where  l.uname='$uname' and l.pass='$pass'");
         $count = $query->num_rows();
+        $loginRow = $query->row_array();
+        $role = $loginRow["name"];
         if($count!=0)
         {           
-            $details = array('status' => "1", 'message' => "Success");
+            $details = array('status' => "1", 'message' => "Success", 'Role' => "$role");
         }
         else
         {
