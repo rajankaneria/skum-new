@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Mission_Eklavya   extends CI_Controller {
+class Mission_eklavya   extends CI_Controller {
 
 	
 	public function index()
