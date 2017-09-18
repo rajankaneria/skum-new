@@ -20,7 +20,7 @@ class User_model extends CI_Model{
         $role = $loginRow["name"];
         if($count!=0)
         {           
-            $details = array('status' => "1", 'message' => "Success", 'Role' => "$role");
+            $details = array('status' => "1", 'message' => "Success", 'role' => "$role");
         }
         else
         {
