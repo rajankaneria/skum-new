@@ -29,5 +29,12 @@ class User_model extends CI_Model{
         return $details;
     }
 
+    function classdiv(){
+        $query = $this->db->query("select * from class");
+        $result = $query->result_array();
+
+        return $result;
+    }
+
 }
 ?>

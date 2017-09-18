@@ -40,9 +40,9 @@ class Webservices  extends CI_Controller {
 		$data_back = json_decode(file_get_contents('php://input'));
 		$this->load->model("user_model");
 
-		if(isset($data_back -> {"uname"}) && isset($data_back -> {"pass"}))
+		if(isset($data_back->{"uname"}) && isset($data_back->{"pass"}))
 		{
-			if(!empty($data_back -> {"uname"}) && !empty($data_back -> {"pass"}))
+			if(!empty($data_back->{"uname"}) && !empty($data_back->{"pass"}))
 			{
 				$uname = $data_back -> {"uname"};
 				$pass = $data_back -> {"pass"};
@@ -61,5 +61,18 @@ class Webservices  extends CI_Controller {
 		echo json_encode($details);
 	}
 
-
+	public function classdiv(){
+		$data_back = json_decode(file_get_contents('php://input'));
+		$this->load->model("user_model");
+		$class = $this->user_model->classdiv();
+		if(sizeof($class) == 0)
+		{
+			$details = array('status'=>"0", 'message'=>"Class Not Found");
+		}
+		else
+		{
+			$details = array('status' => "1", 'message' => "Success", 'class' => $class);
+		}
+		echo json_encode($details);
+	}
 }
