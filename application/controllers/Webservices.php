@@ -75,4 +75,114 @@ class Webservices  extends CI_Controller {
 		}
 		echo json_encode($details);
 	}
+
+	public function admin_attendence(){
+		$data_back = json_decode(file_get_contents('php://input'));
+		$this->load->model("user_model");
+
+		if(isset($data_back->{"class"}))
+		{
+			if(!empty($data_back->{"class"}))
+			{
+				$class = $data_back -> {"class"};
+				// modal call
+				$details = $this->user_model->admin_attendence($class);			
+			}
+			else
+			{
+				$details = array('status' => "0", 'message' => "Parameter is Empty");
+			}
+		}
+		else
+		{
+			$details = array('status' => "0",'message' => "Parameter Missing");
+		}
+		echo json_encode($details);
+	}
+
+	public function studentInsert(){
+
+		$data_back = json_decode(file_get_contents('php://input'));
+		$this->load->model("user_model");
+
+		if( isset($data_back->{"name"}) &&
+			isset($data_back->{"class"}) &&
+			isset($data_back->{"rollno"}) &&
+			isset($data_back->{"medium"}) &&
+			isset($data_back->{"address"}) &&
+			isset($data_back->{"pincode"}) &&
+			isset($data_back->{"bod"}) &&
+			isset($data_back->{"addmissionDate"}) &&
+			isset($data_back->{"gr_no"}) &&
+			isset($data_back->{"van_no"}) &&
+			isset($data_back->{"re_mobile"}) &&
+			isset($data_back->{"of_mobile"}) &&
+			isset($data_back->{"f_name"}) &&
+			isset($data_back->{"f_occupation"}) &&
+			isset($data_back->{"f_mobile"}) &&
+			isset($data_back->{"f_emailid"}) &&
+			isset($data_back->{"m_name"}) &&
+			isset($data_back->{"m_occupation"}) &&
+			isset($data_back->{"m_mobile"}) &&
+			isset($data_back->{"m_emailid"}))
+		{
+			if( !empty($data_back->{"name"}) &&
+				!empty($data_back->{"class"}) &&
+				!empty($data_back->{"rollno"}) &&
+				!empty($data_back->{"medium"}) &&
+				!empty($data_back->{"address"}) &&
+				!empty($data_back->{"pincode"}) &&
+				!empty($data_back->{"bod"}) &&
+				!empty($data_back->{"addmissionDate"}) &&
+				!empty($data_back->{"gr_no"}) &&
+				!empty($data_back->{"van_no"}) &&
+				!empty($data_back->{"re_mobile"}) &&
+				!empty($data_back->{"of_mobile"}) &&
+				!empty($data_back->{"f_name"}) &&
+				!empty($data_back->{"f_occupation"}) &&
+				!empty($data_back->{"f_mobile"}) &&
+				!empty($data_back->{"f_emailid"}) &&
+				!empty($data_back->{"m_name"}) &&
+				!empty($data_back->{"m_occupation"}) &&
+				!empty($data_back->{"m_mobile"}) &&
+				!empty($data_back->{"m_emailid"}))
+			{
+
+				$studentData = array(
+					"name" => $data_back->{"name"},
+					"class" => $data_back->{"class"},
+					"rollno" => $data_back->{"rollno"},
+					"medium" => $data_back->{"medium"},
+					"address" => $data_back->{"address"},
+					"pincode" => $data_back->{"pincode"},
+					"bod" => $data_back->{"bod"},
+					"addmissionDate" => $data_back->{"addmissionDate"},
+					"gr_no" => $data_back->{"gr_no"},
+					"van_no" => $data_back->{"van_no"},
+					"re_mobile" => $data_back->{"re_mobile"},
+					"of_mobile" => $data_back->{"of_mobile"},
+					"f_name" => $data_back->{"f_name"},
+					"f_occupation" => $data_back->{"f_occupation"},
+					"f_mobile" => $data_back->{"f_mobile"},
+					"f_emailid" => $data_back->{"f_emailid"},
+					"m_name" => $data_back->{"m_name"},
+					"m_occupation" => $data_back->{"m_occupation"},
+					"m_mobile" => $data_back->{"m_mobile"},
+					"m_emailid" => $data_back->{"m_emailid"},
+				);
+
+				$details = $this->user_model->studentInsert($studentData);
+			}
+			else
+			{
+				$details = array('status' => "0", 'message' => "Parameter is Empty");
+			}
+		}
+		else
+		{
+			$details = array('status' => "0",'message' => "Parameter Missing");
+		}
+		echo json_encode($details);
+	}
+
 }

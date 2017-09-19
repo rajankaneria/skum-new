@@ -36,5 +36,29 @@ class User_model extends CI_Model{
         return $result;
     }
 
+    function admin_attendence($class){
+        $query = $this->db->query("select * from profile where class='$class'");
+        $count = $query->num_rows();
+        $result = $query->result_array();
+        if($count!=0)
+        {           
+            $details = array('status' => "1", 'message' => "Success", 'Student' => $result);
+        }
+        else
+        {
+            $details = array('status' => "0", 'message' => "Student Not Found");
+        }
+        return $details;
+    }
+
+    function studentInsert($studentData){
+
+        $query = $this->db->insert("profile",$studentData);
+        $profileID = $this->db->insert_id();
+        $details =  array('status' => "1", 'message' => "Success","profile_id" => $profileID);
+        
+        return $details;
+    }
+
 }
 ?>
