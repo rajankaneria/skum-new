@@ -185,4 +185,43 @@ class Webservices  extends CI_Controller {
 		echo json_encode($details);
 	}
 
+	public function noticeBoardInsert()
+	{
+		$data_back = json_decode(file_get_contents('php://input'));
+		$this->load->model("user_model");
+
+		if( isset($data_back->{"title"}) && isset($data_back->{"description"}))
+		{
+			if( !empty($data_back->{"title"}) && !empty($data_back->{"description"}))
+			{
+				$title = $data_back -> {"title"};
+				$description = $data_back -> {"description"};
+
+				$details = $this->user_model->noticeBoardInsert($title,$description);	
+			}
+			else
+			{
+				$details = array('status' => "0", 'message' => "Parameter is Empty");
+			}
+		}
+		else
+		{
+			$details = array('status' => "0",'message' => "Parameter Missing");
+		}
+		echo json_encode($details);
+	}
+
+	public function noticeBoardView(){
+		$data_back = json_decode(file_get_contents('php://input'));
+		$this->load->model("user_model");
+
+		$noticeBoard = $this->user_model->noticeBoardView();
+		if(sizeof($noticeBoard) == 0){
+			$details = array('status'=>"0", 'message'=>"Profile Not Found");
+		}else{
+			$details = array('status'=>"1", 'message'=>"Success", 'noticeBoard' => $noticeBoard);
+		}
+		echo json_encode($details);
+	}
+
 }

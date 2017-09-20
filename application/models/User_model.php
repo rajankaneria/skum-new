@@ -60,5 +60,21 @@ class User_model extends CI_Model{
         return $details;
     }
 
+    function noticeBoardInsert($title,$description){
+
+        $query = $this->db->query("insert into noticeboard(title,description) values('$title','$description')");
+        
+        $details =  array('status' => "1", 'message' => "Success");
+        
+        return $details;
+    }
+
+    function noticeBoardView(){
+        $query = $this->db->query("select * from noticeboard");
+        $result = $query->result_array();
+        
+        return $result;
+    }
+
 }
 ?>
