@@ -15,6 +15,33 @@ class Webservices  extends CI_Controller {
 		
 	}
 
+	public function activityInsert()
+	{
+		$data_back = json_decode(file_get_contents('php://input'));
+		$this->load->model("user_model");
+
+		if( isset($data_back->{"title"}) && isset($data_back->{"description"})&& isset($data_back->{"activity_date"}))
+		{
+			if( !empty($data_back->{"title"}) && !empty($data_back->{"description"}) && !empty($data_back->{"activity_date"}))
+			{
+				$title = $data_back -> {"title"};
+				$description = $data_back -> {"description"};
+				$activity_date = $data_back -> {"activity_date"};
+
+				$details = $this->user_model->activityInsert($title,$description,$activity_date);	
+			}
+			else
+			{
+				$details = array('status' => "0", 'message' => "Parameter is Empty");
+			}
+		}
+		else
+		{
+			$details = array('status' => "0",'message' => "Parameter Missing");
+		}
+		echo json_encode($details);
+	}
+
 	public function profile(){
 		$data_back = json_decode(file_get_contents('php://input'));
 

@@ -76,5 +76,14 @@ class User_model extends CI_Model{
         return $result;
     }
 
+    function activityInsert($title,$description,$activity_date){
+
+        $query = $this->db->query("insert into activity(title,description,activity_date) values('$title','$description','$activity_date')");
+        
+        $details =  array('status' => "1", 'message' => "Success");
+        
+        return $details;
+    }
+
 }
 ?>
