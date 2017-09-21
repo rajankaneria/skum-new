@@ -7,10 +7,15 @@ class Webservices  extends CI_Controller {
 	public function activity(){
 
 		$data_back = json_decode(file_get_contents('php://input'));	
-		$month=$data_back->{"month"};
-		//$month = $_POST["month"];
-		$this->load->model("activity_model");
-		$output = $this->activity_model->getMonthActivity($month);
+		if(isset($data_back -> {"month"}))
+		{
+			$month=$data_back->{"month"};
+			//$month = $_POST["month"];
+			$this->load->model("activity_model");
+			$output = $this->activity_model->getMonthActivity($month);
+		}else{
+			$output = array('status' => "0",'message' => "Parameter Missing");
+		}
 		echo json_encode($output);
 		
 	}
