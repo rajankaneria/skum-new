@@ -57,6 +57,13 @@ class User_model extends CI_Model{
         $profileID = $this->db->insert_id();
         $details =  array('status' => "1", 'message' => "Success","profile_id" => $profileID);
         
+        $studentID = $studentData["class"].$studentData["rollno"];
+        $loginData = array(
+            "uname" => $studentID,
+            "pass" => $studentID,
+            "role_id" => 3
+        );
+        $query = $this->db->insert("login",$loginData);
         return $details;
     }
 
